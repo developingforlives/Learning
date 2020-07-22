@@ -3,84 +3,60 @@
     <head>
         <title>SENNA</title>
         <meta name="description" content="This is the description">
+        <link rel="stylesheet" href="styles.css" />
     </head>
     <body>
-        <header>
-            <nav>
+        <header class="main-header">
+            <nav class="nav main-nav">
                 <ul>
                     <li><a href="index.html">HOME</a></li>
                     <li><a href="store.html">STORE</a></a></li>
                     <li><a href="about.html">ABOUT</a></li>
                 </ul>
             </nav>
-            <hr>
-            <h1>SENNA</h1>
-            <button type="button">Find more about SENNA</button>
-            <br>
-            <br>
-            <!-- TODO: Fine a suitable background image -->
-            <button type="button">&#9658;</button>
+            <h1 class="senna-name senna-name-large">SENNA</h1>
+            <div class="container"> <!--Container (responsive pages): this involves the button inside the padding, you can move the page and the button will be in the same place-->
+            <button class="btn btn-header" type="button">Find more about SENNA</button>
+            </div>
+            <button class="btn btn-header btn-play" type="button">&#9658;</button>
         </header>
-        <section>
-            <h2>THE KING OF MONACO</h2>
+        <section class="content-section container">
+            <h2 class="section-header">THE KING OF MONACO</h2>
             <div>
-                <div>
-                    <strong>May 31, 1987</strong>
-                    &lt;&gt;
-                    <span>Circuit de Monaco</span>
-                    &lt;&gt;
-                    <span>Lotus Renault - 99T</span>
-                    &lt;&gt;
-                    <button type="button">Buy Video</button>
-                    <hr>
+                <div class="race-row">
+                    <span class="race-item race-date">May 31, 1987</span>
+                    <span class="race-item race-city">Circuit de Monaco</span>
+                    <span class="race-item race-car">Lotus Renault - 99T</span>
+                    <button type="button" class="btn race-item race-btn">Buy Video</button>
                 </div>
-                <div>
+                <div class="race-row">
                     <strong>May 7, 1989</strong>
-                    &lt;&gt;
                     <span>Circuit de Monaco</span>
-                    &lt;&gt;
                     <span>McLaren Honda - MP4/5</span>
-                    &lt;&gt;
                     <button type="button">Buy Video</button>
-                    <hr>
                 </div>
-                <div>
+                <div class="race-row">
                     <strong>May 27, 1990</strong>
-                    &lt;&gt;
                     <span>Circuit de Monaco</span>
-                    &lt;&gt;
                     <span>McLaren Honda - MP4/5B</span>
-                    &lt;&gt;
                     <button type="button">Buy Video</button>
-                    <hr>
                 </div>
-                <div>
+                <div class="race-row">
                     <strong>May 12, 1991</strong>
-                    &lt;&gt;
                     <span>Circuit de Monaco</span>
-                    &lt;&gt;
                     <span>McLaren Honda - MP4/6</span>
-                    &lt;&gt;
                     <button type="button">Buy Video</button>
-                    <hr>
                 </div>
-                <div>
+                <div class="race-row">
                     <strong>May 31, 1992</strong>
-                    &lt;&gt;
                     <span>Circuit de Monaco</span>
-                    &lt;&gt;
                     <span>McLaren Honda - MP4/7A</span>
-                    &lt;&gt;
                     <button type="button">Buy Video</button>
-                    <hr>
                 </div>
-                <div>
+                <div class="race-row">
                     <strong>May 23, 1993</strong>
-                    &lt;&gt;
                     <span>Circuit de Monaco</span>
-                    &lt;&gt;
                     <span>McLaren Ford - MP4/8</span>
-                    &lt;&gt;
                     <button type="button">Buy Video</button>
                 </div>
             </div>
@@ -107,3 +83,4 @@
         </footer>
     </body>
 </html>
+

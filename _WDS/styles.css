@@ -87,7 +87,6 @@ html, body {
     color: #333;
     text-align: center;
     font-size: 2.5em;
-
 }
 
 .about-senna {
@@ -118,7 +117,76 @@ html, body {
     padding: 0 .5em;
 }
 
-.footer.nav img {
+.footer-nav img {
     width: 30px;
     height: 30px;
 }
+
+.btn {
+    text-align: center;
+    vertical-align: middle;
+    padding: .67em;
+    cursor: pointer;
+}
+
+
+.btn-header {
+    margin: .5em 15% 2em 15%; /* Top, right side margin, bottom, left side margin */
+    color: white;
+    border: 2px solid #2d9cdb;
+    background-color: rgba(255, 255, 255, .1);
+    border-radius: 0;
+    font-size: 1.5em;
+    font-weight: lighter;
+    padding-right: 2em;
+    padding-left: 2em;
+}
+
+.btn-header:hover {
+    background-color: rgba(255, 255, 255, .3); /* this insert a hover, highlight the buttom */
+}
+
+.btn-play {
+    display: block;
+    margin: 0 auto;
+    color: #2d9cdb;
+    font-size: 4em;
+    border-radius: 50%;
+    padding: 0;
+    width: 100px;
+    height: 100px;
+}
+
+.race-row {
+    border-bottom: 1px solid black;
+    padding-bottom: 1em;
+    margin-bottom: 1em;
+}
+
+.race-row:last-child {
+    border-bottom: none;
+}
+
+.race-item {
+    display: inline-block;
+    padding-right: .5em;
+}
+
+.race-date {
+    color: #555;
+    font-weight: bold;
+    width: 30%;
+}
+
+.race-city {
+    width: 10%;
+}
+
+.race-car {
+    width: 36%;
+}
+
+.race-btn {
+    max-width: 19%;
+}
+

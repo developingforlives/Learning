@@ -5,13 +5,33 @@
 
 .synopsis em {
     font-style: normal;
+    color: darkgreen;
 }
 
 .synopsis strong {
     color: rebeccapurple;
 }
 
-.button {
+a:link {
+    color: blue;
+    text-decoration: none;
+}
+a:visited {
+    color: purple;
+}
+
+a:visited:hover {
+    color: orange;
+}
+
+a:visited:active {
+    color: red;
+}
+
+.button:link,                 /* Change this */
+.button:visited {             /* Change this */
+    display: block;             /* Add this */
+    text-decoration: none;      /* Add this */
     color: #FFF;
     background-color: #5995DA;    /* Blue */
     font-weight: bold;
@@ -33,55 +53,24 @@
     background-color: #EEB75A;    /* Yellow */
 }
 
-a:link {                            /*:link – A link the user has never visited.*/
-    color: blue;
-    text-decoration: none;
-}
-a:visited {                         /*:visited – A link the user has visited before.*/
-    color: purple;
-}
-a:hover {                           /*:hover – A link with the user’s mouse over it.*/
-    color: aqua;
-    text-decoration: underline;
-}
-a:active {                          /*:active – A link that’s being pressed down by a mouse (or finger).*/
-    color: red;
+h1 strong {
+    color: chocolate;
 }
 
-/*These last two sections let you style visited links entirely separately from unvisited ones. It’s a nice option to have, but again, you’re welcome to stop at basic link styles if that’s all you need.*/
-a:visited:hover {
-    color: orange;
+.first:link,
+.first:visited {
+  font-style: italic;
+  background-color: green;     /* Yellow */
 }
 
-a:visited:active {
-    color: red;
+.first:hover,
+.first:visited:hover {
+  background-color: plum;
 }
 
-.button:link,                       /* Change this */
-.button:visited {                   /* Change this */
-    display: block;                 /* Add this */
-    text-decoration: none;          /* Add this */
-    color: #FFF;                  /* The rest is the same */
-    background-color: #5995DA;
-    font-weight: bold;
-    padding: 20px;
-    text-align: center;
-    border: 2px solid #5D6063;
-    border-radius: 5px;
-    width: 200px;
-    margin: 20px auto;
-}
-
-.button:hover,
-.button:visited:hover {
-    color: #FFF;
-    background-color: #76AEED;  /* Light blue */
-}
-
-.button:active,
-.button:visited:active {
-    color: #FFF;
-    background-color: #5995DA;  /* Blue */
+.first:active,
+.first:visited:active {
+  background-color: cyan;  /* Blue */
 }
 
 .call-to-action:link,
@@ -97,24 +86,5 @@ a:visited:active {
 
 .call-to-action:active,
 .call-to-action:visited:active {
-  background-color: #EEB75A;     /* Yellow */
+  background-color: powderblue;     /* Yellow */
 }
-
-p:last-of-type {
-    margin-bottom: 50px;
-  }
-
-  p:first-of-type {
-    color: #7E8184;
-    font-style: italic;
-  }
-
-  .page > p:first-of-type {
-    color: #7E8184;
-    font-style: italic;
-  }
-  
-
-#button-2 {
-    background-color: #D55C5F;    /* Red */
-  }

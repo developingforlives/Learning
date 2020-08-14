@@ -1,0 +1,26 @@
+body {
+    background-color: lightgray;
+}
+
+h1 {
+    color: blueviolet;
+}
+
+.grande {
+    color: lightgreen;
+    background-color: palevioletred;
+    width: 900px;
+    height: 500px;
+}
+
+.pequeno {
+    color: blue;
+    background-color: chocolate;
+    width: 300px;
+    height: 200px;
+}
+
+span {
+    color: white;
+    background-color: dodgerblue;
+}

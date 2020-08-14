@@ -1,0 +1,34 @@
+{
+	"folders": [
+		{
+			"name": "links-and-images",
+			"path": "links-and-images"
+		},
+		{
+			"name": "hello-css",
+			"path": "hello-css"
+		},
+		{
+			"name": "css-box-model",
+			"path": "css-box-model"
+		},
+		{
+			"name": "css-selectors",
+			"path": "css-selectors"
+		},
+		{
+			"name": "floats",
+			"path": "floats"
+		},
+		{
+			"name": "flexbox",
+			"path": "flexbox"
+		},
+		{
+			"path": "my-tests"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "flexbox"
+	}
+}

@@ -28,10 +28,10 @@ a:visited:active {
     color: red;
 }
 
-.button:link,                 /* Change this */
-.button:visited {             /* Change this */
-    display: block;             /* Add this */
-    text-decoration: none;      /* Add this */
+.button:link,                 
+.button:visited {             
+    display: block;             
+    text-decoration: none;      
     color: #FFF;
     background-color: #5995DA;    /* Blue */
     font-weight: bold;

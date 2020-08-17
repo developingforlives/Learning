@@ -26,9 +26,12 @@
 		},
 		{
 			"path": "my-tests"
+		},
+		{
+			"path": "advanced-positioning"
 		}
 	],
 	"settings": {
-		"liveServer.settings.multiRootWorkspaceName": "flexbox"
+		"liveServer.settings.multiRootWorkspaceName": "advanced-positioning"
 	}
 }

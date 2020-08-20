@@ -1,15 +1,18 @@
 .synopsis {
     color: #7E8184;        /* Light gray */
     font-style: italic;
+    text-align: justify;
 }
 
 .synopsis em {
     font-style: normal;
+    font-weight: bold;
     color: darkgreen;
-}
+  }
 
 .synopsis strong {
     color: rebeccapurple;
+    font-size: 24px;
 }
 
 a:link {
@@ -48,7 +51,7 @@ a:visited:active {
     margin: 0 auto;
 }
 
-.call-to-action {
+.second {
     font-style: italic;
     background-color: #EEB75A;    /* Yellow */
 }
@@ -73,18 +76,33 @@ h1 strong {
   background-color: cyan;  /* Blue */
 }
 
-.call-to-action:link,
-.call-to-action:visited {
+.second:link,
+.second:visited {
   font-style: italic;
   background-color: #EEB75A;     /* Yellow */
 }
 
-.call-to-action:hover,
-.call-to-action:visited:hover {
+.second:hover,
+.second:visited:hover {
   background-color: #F5CF8E;     /* Light yellow */
 }
 
-.call-to-action:active,
-.call-to-action:visited:active {
+.second:active,
+.second:visited:active {
   background-color: powderblue;     /* Yellow */
+}
+
+.trirth:link,
+.trirth:visited {
+  font-style: italic;
+  background-color: darkorchid;
+}
+
+.trirth:hover,
+.trirth:visited:hover {
+  background-color: orange}
+
+.trirth:active,
+.trirth:visited:active {
+  background-color: cornflowerblue; 
 }

@@ -51,6 +51,8 @@ a:hover {
     position: absolute;
     top: -25px;
     left: -30px;
+    z-index: 1;
+    display: none;
 }
 
 .features-menu li {
@@ -68,22 +70,14 @@ a:hover {
     position: relative;
 }
 
-.dropdown>span {
+.dropdown > span {
     z-index: 2;
-    position: relative;
-    /* This is important! */
+    position: relative;     /* This is important! */
     cursor: pointer;
 }
 
-.features-menu {
-    z-index: 1;
-    display: none;
-}
-
-.dropdown:hover .features-menu {
-    /* This used to be `.features-menu` */
-    display: flex;
-    /* Leave everything else alone */
+.dropdown:hover .features-menu {     /* This used to be `.features-menu` */
+    display: flex;                   /* Leave everything else alone */
     flex-direction: column;
     background: #B2D6FF;
 }

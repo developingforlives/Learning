@@ -1,0 +1,31 @@
+{
+	"folders": [
+		{
+			"path": "links-and-images"
+		},
+		{
+			"path": "hello-css"
+		},
+		{
+			"path": "css-box-model"
+		},
+		{
+			"path": "css-selectors"
+		},
+		{
+			"path": "floats"
+		},
+		{
+			"path": "flexbox"
+		},
+		{
+			"path": "advanced-positioning"
+		},
+		{
+			"path": "responsive-design"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "responsive-design"
+	}
+}

@@ -23,9 +23,18 @@
 		},
 		{
 			"path": "responsive-design"
+		},
+		{
+			"path": "semantic-html"
+		},
+		{
+			"path": "forms"
+		},
+		{
+			"path": "web-typography"
 		}
 	],
 	"settings": {
-		"liveServer.settings.multiRootWorkspaceName": "responsive-design"
+		"liveServer.settings.multiRootWorkspaceName": "flexbox"
 	}
 }

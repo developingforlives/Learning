@@ -2,5 +2,8 @@ tweak - puxar
 
 endlessly - indefinidamente
 
-glimpse = vislumbre, visão rápida
+glimpse - vislumbre, visão rápida
+
+chunks - pedaços
+
 

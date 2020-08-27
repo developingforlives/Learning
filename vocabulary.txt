@@ -1,3 +1,30 @@
+﻿Nevertheless = Mesmo assim, contudo, todavia, apesar disso, porém.
+
+will be paramount = será primordial
+
+By far the most common thing = De longe, o coisa mais comum
+
+is another built-in = é outro embutido
+
+You’ll almost always have at least one = Você quase sempre terá pelo menos um
+
+rendered = entregue, apresentada, renderizada
+
+mockup = modelo (HTML)
+
+Content = Conteúdo
+Padding = Preenchimento
+Border = Borda
+Margin = Margem
+
+So, before you start banging your head against the wall trying to figure out why = Então, antes de começar a bater a cabeça na parede, tentando descobrir por que
+
+Needless to say = Desnecessário dizer
+
+snippet = trecho
+
+to the - ao
+
 tweak - puxar
 
 endlessly - indefinidamente
@@ -5,5 +32,7 @@ endlessly - indefinidamente
 glimpse - vislumbre, visão rápida
 
 chunks - pedaços
+
+
 
 

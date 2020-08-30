@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+        
+    <head>
+        <title>Chapter 7, HTML Tables</title>
+        <style>
+            table, td, th {border: 1px solid black}
+        </style>
+    </head>
+
+    <body>
+        <h1>Stef's Favorite Bands</h1>
+        <table>
+            <thead>
+                <tr>
+                    <th>Band Name</th>
+                    <th>Order</th>
+                    <th>Music Style</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>The Beatles</td>
+                    <td>#1 Fav</td>
+                    <td>Psychedelic Rock</td>
+                </tr>
+                <tr>
+                    <td>Led Zepp</td>
+                    <td>#2 Fav</td>
+                    <td>Hard Rock/Heavy Metal</td>
+                </tr>
+                <tr>
+                    <td>Nirvana</td>
+                    <td>#3 Fav</td>
+                    <td>Grunge (depressing, but fun!)</td>
+                </tr>
+                <tr>
+                    <td>Amy Winehouse</td>
+                    <td>#4 Fav</td>
+                    <td>Soul, Jazz</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="3">My favorites bands in 2015-16</td>
+                </tr>
+            </tfoot>
+        </table>
+        
+        <h2>Table #2</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Month</th>
+                    <th>Savings</th>
+                    <th>Savings for holiday!</th>
+                </tr>
+            </thead>            
+            <tbody>
+                <tr>
+                    <td>January</td>
+                    <td>€100</td>
+                    <td rowspan="2">€50</td>
+                </tr>
+                <tr>
+                    <td>February</td>
+                    <td>€80</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <td colspan="3">I saved or not?</td>
+            </tfoot>
+        </table>
+
+    </body>
+</html>

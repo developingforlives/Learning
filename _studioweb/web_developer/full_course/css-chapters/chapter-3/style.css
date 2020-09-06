@@ -1,0 +1,13 @@
+h1 {
+    font-family: "Kaushan Script", cursive;
+    font-size: 44px;
+    color: #ffffff;
+    background-color: #ee7717;
+    max-width: 400px;
+    text-align: center;
+}
+
+p {
+    color: red;
+    font-size: 20px;
+}

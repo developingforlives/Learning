@@ -2,12 +2,12 @@
 
 body {
 font-size: 16px;
-font-family: monospace;
+font-family: monospace; 
 color: #000;
 background-color: #FFF;
 }
 
-h1, h2, h3 {font-family:'Shadows Into Light', cursive;
+h1, h2, h3 {font-family:'Dancing Script', cursive;
 max-width: 500px;
 }
 

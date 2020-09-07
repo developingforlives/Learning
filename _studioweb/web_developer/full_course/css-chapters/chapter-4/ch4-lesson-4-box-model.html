@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Chapter 3 CSS Tutorial - Lesson 11</title>
+	<title>Chapter 4 CSS Tutorial - Lesson 4</title>
 	<meta charset="UTF-8"> 
 	
 	<link href='http://fonts.googleapis.com/css?family=Shadows+Into+Light' rel='stylesheet' type='text/css'>
@@ -11,21 +11,26 @@
 
 /*
 
-1. external stylesheets (most of the time)
-2. internal stylesheet (ocassionaly once in a while)
-3. inline style (very rarely)
+box model - basic layout
 
 */
-
 	p .italic {
     font-style: italic;
     font-weight: bold;
 	}
 
 	body {
+	background: #ffffff url("images/miami-trans.png") no-repeat right top fixed;
+	background-size:cover;
+	}
 
-		background: #ffffff url("images/miami-trans.png") no-repeat right top fixed;
-		background-size:cover;
+	h1 {
+
+		border-style: dashed;
+		border-width: 8px;
+		padding: 10px;
+		margin: 50px;
+
 	}
 
 </style>
@@ -44,10 +49,10 @@
 	
 	<h3>A Sub Heading</h3>
 	<p>
-	Stefan likes to eat <span class="italic">bananas with peanut butter. </span>and something called 'poutine'. We focus on teaching the key basic concepts and techniques of web design and <span class="italic">web programming.</span> Learn more:
+	Stefan likes to eat <span class="italic">bannas with peanut butter. </span>and something called 'poutine'. We focus on teaching the key basic concepts and techniques of web design and <span class="italic">web programming.</span> Learn more:
 	</p>
 
-	<ol style="color: red">
+	<ol>
 		<li>Easily track student progress through an easy to read spreadsheet-like layout. Quickly look over your classes to see where students are in the courses. </li> 
 		<li>View student profiles to get a detailed view of your student's progress: see scores and the badges the student has earned.</li>
 		<li>Receive a verifiable "Certificate of Completion" with each course you finish. <a href="http://studioweb.com" title="studioweb">LEARN MORE!</a></li> 

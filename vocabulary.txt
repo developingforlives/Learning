@@ -47,6 +47,10 @@ so that = para que
 
 once in a while - de vez em quando
 
+hover: flutuar, pairar, rondar em torno de
+
+
+
 
 
 

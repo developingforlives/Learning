@@ -1,29 +1,31 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Chapter 4 CSS Tutorial - Lesson 8</title>
+	<title>Chapter 4 CSS Tutorial - Lesson 5</title>
 	<meta charset="UTF-8"> 
 	
 	<link href='http://fonts.googleapis.com/css?family=Shadows+Into+Light' rel='stylesheet' type='text/css'>
 	
 
 <style type="text/css">
-/* calculating the element's width properly */
 
 body, p {margin: 0px; padding: 0px;}
 
-#div1 {
-	width: 290px;
-	background-color: gray;
-	margin: 10px auto 10px auto; /* top-right-bottom-left */
-	padding: 200px 50px; /* (top-bottom) - (right-left)*/
-	border: 5px solid black;
+#div1 {width: 400px;
+background-color: gray;
+
 }
 
-#div2 {
-	width: 400px;
-	background-color: green;
-	margin: 10px auto 10px auto; /* top-right-bottom-left */
+#div2 {width: 400px;
+background-color: green;
+
+}
+
+
+#abs {
+position: absolute;
+background-color: red;
+
 }
 
 </style>
@@ -39,6 +41,15 @@ body, p {margin: 0px; padding: 0px;}
 </div>
 
 <div id="div2">
+	<p>
+	And so we have yet another paragraph of text that follows our odered list. The list is called an ordered list because it has an order imposed upon it by the web browser - the list of items are numbered.
+	</p>
+	<p>
+	And so we have <span id="abs">yet another paragraph of text that follows</span> our odered list. The list is called an ordered list because it has an order imposed upon it by the web browser - the list of items are numbered.
+	</p>
+<p>
+	And so we have yet another paragraph of text that follows our odered list. The list is called an ordered list because it has an order imposed upon it by the web browser - the list of items are numbered.
+	</p>
 	<p>
 	And so we have yet another paragraph of text that follows our odered list. The list is called an ordered list because it has an order imposed upon it by the web browser - the list of items are numbered.
 	</p>

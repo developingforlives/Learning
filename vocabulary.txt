@@ -49,6 +49,10 @@ once in a while - de vez em quando
 
 hover: flutuar, pairar, rondar em torno de
 
+even number: número par
+
+odd number: número ímpar
+
 
 
 

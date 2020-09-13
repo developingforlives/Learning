@@ -1,0 +1,4 @@
+alt + z = alinha o texto para o tamanho da janela
+
+alt + shif + f = alinha as linhas de comando do código automaticamente
+

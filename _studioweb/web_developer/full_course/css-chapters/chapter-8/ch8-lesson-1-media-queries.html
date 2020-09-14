@@ -3,18 +3,29 @@
 	<head>
 		<title>Beginners CSS - Chapter 8</title>
 
+    <link href='http://fonts.googleapis.com/css?family=Shadows+Into+Light' rel='stylesheet' type='text/css'>
 
-<style type="text/css">
+    <!-- https://stackoverflow.com/questions/8681903/browser-doesnt-scale-below-400px
+    <a href="javascript:window.open('your_url_here', '','width=320,height=480')">Open!</a> -->
 
-* {margin: 0px;}
+    <a href="javascript:(function(){window.open(document.URL, '','width=320,height=480');})();">Open!</a>
+
+   <style type="text/css">
+
+* {margin: 0px}
+
+/*main, nav {
+  display: block;
+}/* this is used so that old Browsers version, such as: Internet Explorer can be viewing.*/
 
 main {
-  margin: 10px auto; width: 600px; padding: 30px;  margin-top: 0px; 
-  background-color: olive; display: block;
+  display: block;
+  margin: 10px auto;
+  width: 600px;
+  padding: 30px;
+  margin-top: 0px;
+  background-color: olive;
 }
-
-
-
 
 
 @media screen and (max-width: 350px) {
@@ -27,8 +38,18 @@ main {
   main {
     background-color: red;
   }
+
+  p {
+    font-size: 2em;
+    color: green;
+    font-family: sans-serif;
+    font-style: italic;
+    padding: 10px;
+    background-color: lightgoldenrodyellow;
+  }
 }
 
+/*check this bug*/
 @media screen and (min-width: 800px) {
   main {
     background-image: url("images/Reeds-in-Wind-Cinemagraph.gif");
@@ -46,12 +67,6 @@ main {
 
   h1, p {display: none;}
 }
-
-
-
-
-
-
 
 </style>
 	

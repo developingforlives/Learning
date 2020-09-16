@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "first-page"
+		},
+		{
+			"path": "html-chapters"
+		},
+		{
+			"path": "css-chapters"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "css-chapters"
+	}
+}

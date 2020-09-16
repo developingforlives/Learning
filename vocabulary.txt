@@ -53,6 +53,12 @@ even number: número par
 
 odd number: número ímpar
 
+stack - pilha, ordem
+
+stacking order =  ordem de empilhamento
+
+
+
 
 
 

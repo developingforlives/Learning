@@ -10,8 +10,28 @@ It was Purchased ($39.99 - €33.93) on 25AUG2020.
 
 2- HTML5 Foundations - 26AUG2020_30AUG2020
 
-3- CSS Foundations - 31AUG2020_
+3- CSS Foundations - 31AUG2020_16SEP2020
 
- 
+4- Going Live on The Web - 
 
- 
+5- Javascript Foundations - 
+
+6- PHP7 Foundations - 
+
+7- PHP and MySQL -
+
+8- Form Validation with PHP and Javascript - 
+
+9- CRUD with PHP and MySQLi -
+
+10 - PHP Tag Cloud - 
+
+11- Simple PHP Login System - 
+
+12- PHP Login with OOP and MVC - 
+
+13- PHP Cart with PayPal, OOP & MVC - 
+
+14- Build A Content Management System - 
+
+15- WordPress Themes from Scratch -

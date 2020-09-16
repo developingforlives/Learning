@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Chapter 4 CSS Tutorial - Lesson 8</title>
+	<meta charset="UTF-8"> 
+	
+	<link href='http://fonts.googleapis.com/css?family=Shadows+Into+Light' rel='stylesheet' type='text/css'>
+	
+
+<style type="text/css">
+/* calculating the element's width properly */
+
+body, p {margin: 0px; padding: 0px;}
+
+#div1 {
+	width: 290px;
+	background-color: #ffffff;
+	margin: 10px auto 10px auto; /* top-right-bottom-left */
+	padding: 200px 50px; /* (top-bottom) - (right-left)*/
+	border: 5px solid #000000;
+	background-image: url("images/miami-trans.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	/*background-attachment: fixed;*/
+	height: 400px; /*you must select the height here in px (pixels))*/
+}
+
+.innerp {
+	padding: 10px;
+	background-color: #00ff00;
+	opacity: .7;
+	height: 30%; /*here you can select in percentage or pixels*/
+}
+
+#div2 {
+	width: 400px;
+	background-color: #00ff00; /*RGB colors (red, green, blue)*/
+	margin: 10px auto 10px auto; /* top-right-bottom-left */
+	border: 1px solid #000;
+	padding: 14px;
+	border-radius: 15px;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div id="div1">
+	<p class="innerp">
+	And so we have yet another paragraph of text that follows our odered list. The list is called an ordered list <span style=" color: red; background-color: #000">because height does not work on inline tags/elements</span> imposed upon it by the web browser - the list of items are numbered.
+	</p>
+</div>
+
+<div id="div2">
+	<p>
+	And so we have yet another paragraph of text that follows our odered list. The list is called an ordered list because it has an order imposed upon it by the web browser - the list of items are numbered.
+	</p>
+	<p>
+	And so we have yet another paragraph of text that follows our odered list. The list is called an ordered list because it has an order imposed upon it by the web browser - the list of items are numbered.
+	</p>
+</div>
+
+</body>
+</html>

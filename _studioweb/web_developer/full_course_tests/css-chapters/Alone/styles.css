@@ -1,0 +1,110 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body {
+    max-width: 1800;
+    padding: 0px 20px;
+    font-size: 16px;
+    font-family: monospace;
+    color: #000;
+    background-color: #fcfcfc;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family:'Shadows Into Light', cursive;
+    padding: 10px 0px;
+    text-indent: 30px;
+}
+
+p {
+    text-indent: 30px;
+    padding: 10px 0px;
+}
+
+.header {
+    position: relative;
+    color: white;
+    background-color: #4bb2b2;
+    text-align: right;
+}
+
+.header h4 {
+    padding: 5px 300px 5px 0px;
+}
+
+.nav-main {
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: lighter;
+    background-image: url("images/massage_3.png");
+    background-size: 100% ;
+    height: 300px;
+    opacity: .8;
+    
+}
+
+.nav-main li {
+    padding: 5px;
+}
+
+.main {
+    background: #ffffff url("images/IMG-20160327_normal.jpg") no-repeat right top fixed;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 853px;
+}
+
+main h1 {
+    padding-top: 300px;
+}
+
+.footer {
+    position: relative;
+    color: white;
+    background-color: #4bb2b2;
+    padding: 5px 200px 5px 0px;
+    text-align: right;
+    border-top: 1px solid black;
+}
+
+ul {
+    padding: 25px 0px 0px 20px
+}
+
+ul li {
+    list-style-type: none;
+    line-height: 150%;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.nav-main a:hover {
+    background-color: #4bb2b2;
+}
+
+a:link, a:visited  {
+    color: #000; 
+    text-decoration: none; 
+    /*background-color: #aacfa2;*/
+    padding-left: 10px;
+    display: block;
+    width: 145px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    transition: margin-bottom .45s ease-in;
+}   
+    
+    /* mouse over link */
+a:hover { 
+    color: #ffffff; 
+    background-color: #000;
+    margin-bottom: 45px;
+}
+
+.unique-logo {
+    padding: 50px 0px 0px 500px;
+    border: 1px solid black;
+}

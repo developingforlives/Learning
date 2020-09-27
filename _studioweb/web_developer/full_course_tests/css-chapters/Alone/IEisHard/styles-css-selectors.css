@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.page {
+    width: 600px;
+    margin: 0 auto;
+}
+
+.synopsis {
+    color: #7E8184;        
+    font-style: italic;
+}
+
+.synopsis em {
+      font-style: normal;
+      font-weight: bold;
+      color: red;
+  }
+
+.button:link {               
+    display: block;             
+    color: #FFF;
+    background-color: #5995DA;    
+    text-decoration: none;      
+    font-weight: bold;
+    padding: 20px;
+    text-align: center;
+    border: 2px solid #5D6063;    
+    border-radius: 5px;
+    width: 200px;
+    margin: 20px auto;
+}
+
+.button:visited {
+    color: green;
+    background-color: greenyellow;
+}
+
+.button:visited:hover {
+    color: orange;
+    background-color: hotpink;
+}
+
+.button:hover {
+    color: aqua;
+    text-decoration: underline;
+}
+
+.button:active {
+    color: red;
+}
+
+.button:visited:active {
+    color: red;
+}
+
+/*.button:hover,
+.button:visited:hover {
+  color: #FFF;
+  background-color: plum;  
+}
+
+.button:active,
+.button:visited:active {
+  color: #FFF;
+  background-color: green;  
+}
+
+.call-to-action {
+    font-style: italic;
+    background-color: #EEB75A;    
+}
+
+.call-to-action:link,
+.call-to-action:visited {
+  font-style: italic;
+  background-color: #EEB75A;     
+}
+
+.call-to-action:hover,
+.call-to-action:visited:hover {
+  background-color: #F5CF8E;     
+}
+
+.call-to-action:active,
+.call-to-action:visited:active {
+  background-color: #EEB75A;     
+}
+*/
+
+a:link {
+    color: blue;
+    text-decoration: none;
+}
+
+a:visited {
+    color: green;
+}
+
+a:visited:hover {
+    color: orange;
+}
+
+a:hover {
+    color: aqua;
+    text-decoration: underline;
+}
+
+a:active {
+    color: red;
+}
+
+a:visited:active {
+    color: red;
+}
+
+/*  ***IMPORTANT***
+
+p:last-of-type {
+    margin-bottom: 50px;
+    border-bottom: 1px dashed brown;
+    padding-bottom: 50px;
+}
+
+p:first-of-type {
+    color: chocolate;
+    background-color: yellowgreen;
+    font-style: italic;
+}
+
+Note: There’s pros and cons to using this method over plain old classes. For instance, this only works if our synopsis is a <p> element. If we ever wanted to create a multi-paragraph synopsis by wrapping a bunch of <p> elements in a <div class='synopsis'>, we’d have to rewrite our CSS accordingly. On the other hand, the pseudo-class method lets us style specific elements without having to alter the HTML at all. This gives us a very clean separation of content from presentation.
+Existem prós e contras em usar este método em vez de classes simples. Por exemplo, isso só funciona se nossa sinopse for um elemento <p>. Se alguma vez quiséssemos criar uma sinopse de vários parágrafos envolvendo um monte de elementos <p> em uma <div class = 'synopsis'>, teríamos que reescrever nosso CSS de acordo. Por outro lado, o método da pseudo-classe nos permite estilizar elementos específicos sem ter que alterar o HTML. Isso nos dá uma separação muito clara do conteúdo da apresentação.
+*/

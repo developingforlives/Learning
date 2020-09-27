@@ -49,13 +49,19 @@ once in a while - de vez em quando
 
 hover: flutuar, pairar, rondar em torno de
 
-even number: número par
+even number - número par
 
-odd number: número ímpar
+odd number - número ímpar
 
 stack - pilha, ordem
 
 stacking order =  ordem de empilhamento
+
+rinse - enxaguar
+
+flip - virar
+
+
 
 
 

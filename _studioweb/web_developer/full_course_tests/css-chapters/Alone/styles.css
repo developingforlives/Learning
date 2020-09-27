@@ -40,10 +40,9 @@ p {
     font-size: 1.1em;
     font-weight: lighter;
     background-image: url("images/massage_3.png");
-    background-size: 100% ;
+    background-repeat: round;
     height: 300px;
     opacity: .8;
-    
 }
 
 .nav-main li {

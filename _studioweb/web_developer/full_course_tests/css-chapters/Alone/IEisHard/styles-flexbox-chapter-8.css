@@ -71,7 +71,7 @@
   
   .photo-grid {
     display: flex;
-    width: 900px;
+    width: 930px;
     justify-content: center;
     flex-wrap: wrap;
     flex-direction: row;
@@ -94,18 +94,52 @@
     order: 1;
   }
 
+  .combined {
+    background-color: thistle;
+    border: 4px dotted green;
+    text-align: center;
+    padding: 10px 50px;
+  }
+
+  .image {
+    display: block;
+    border: 5px solid violet;
+    margin: 5px;
+    border-radius: 10px;
+  }
+
  .photo-aguas-container {
     display: flex;
     width: 900px;
     justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
     border: 2px solid brown;
     margin-left: 100px;
-    align-items: center;
+    position: relative;
   }
  
   .photo-aguas {
     border: 2px dotted red;
     padding-top: 4px;
+    position: relative;
+    bottom: 300px;
+    z-index: 0;
+    opacity: .3;
+  }
+
+  .p-aguas-container {
+    display: block;
+    width: 95%;
+    color: rgb(17, 59, 17);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    text-align: justify;
+    text-indent: 30px;
+    padding: 0px 20px;
+    background-color: yellow;
+    z-index: 1;
+    opacity: .6;
   }
     
   .footer {

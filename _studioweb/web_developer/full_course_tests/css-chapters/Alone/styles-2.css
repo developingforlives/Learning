@@ -11,17 +11,19 @@ body {
     font-family: monospace;
     color: #000;
     background-color: #fcfcfc;
+    height: 1500px;
+    border: 2px dashed green;
 }
 
 h1, h2, h3, h4, h5, h6 {
     padding: 10px 0px;
-    text-indent: 30px;
+    text-indent: 40px;
 }
 
 .header-container {
     display: flex;
     color: white;
-    background-color: #4bb2b2;
+    background-color: #53b6b6;
     height: 35px;
     align-items: center;
 }
@@ -52,74 +54,196 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .header-icons :hover {
-    background-color: #4bb2b2;
+    background-color: #53b6b6;
     transition: .35s ease;
     opacity: .8;
 }
 
 .main {
     /*background: #ffffff url("images/IMG-20160327-ligther.jpg") no-repeat right top fixed;*/
+    border: 5px dashed rgb(190, 190, 58);
     background-color: #cee2ce;
-    background-size: cover;
-    background-attachment: fixed;
-    height: 853px;
+    /*background-size: cover;
+    background-attachment: fixed;*/
 }
 
 .nav-main {
+    border: 3px dashed violet;
     display: flex;
     justify-content: center;
-    font-size: 1.1em;
+    font-size: 1.2em;
     background-image: url("images/massage_3.png");
-    height: 310px;
+    background-size: cover;
+    height: 167px;
     opacity: .8;
 }
 
 .nav-links {
+    border: 1px dashed red;
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
     height: 80px;
-    background-color: rgba(75, 178, 178, .2);
+    background-color: rgb(83, 182, 182, .3);
 }
 
 .nav-links li {
     display: inline-flex;
     list-style-type: none;
     line-height: 150%;
-    font-size: 1.2em;
+    font-size: 1.3em;
     font-weight: bold;
     text-align: center;
 }
 
-.nav-links a:hover {
-    background-color: #4bb2b2;
-}
-
-.nav-links a:link, a:visited  {
-    color: #000; 
+.nav-links a:link,
+.nav-links a:visited {
+    color: rgb(54, 51, 51);
     text-decoration: none; 
     /*background-color: #aacfa2;*/
     display: block;
-    width: 145px;
+    width: 160px;
     border-radius: 10px;
-    transition: margin-left .45s ease;
+    /*transition: margin-left .45s ease;*/
 }   
 
-
-
-.main h1 {
-    padding-top: 100px;
-    }
-
-
-.footer {
-    position: relative;
+.nav-links a:hover {
     color: white;
-    background-color: #4bb2b2;
-    padding: 5px 200px 5px 0px;
-    text-align: right;
-    border-top: 1px solid black;
+    background-color: rgba(83, 182, 182, .6);
+    margin: 0px 10px;
+    transition: margin .20s ease-in;
 }
 
 
+.main-text {
+    border: 3px dashed red;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-text p {
+    text-indent: 30px;
+    text-align: justify;
+    padding: 0px 10px 20px 10px;
+}
+
+.main h1 {
+    padding-top: 25px;
+}
+
+.footer-container-1 {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    background-color: #afc9c9;
+    height: 240px;
+    border: 3px solid red;
+}
+
+.logo {
+    align-self: center;
+    padding: auto 0px;
+    width: 600px;
+    border: 2px solid red;
+}
+
+.sitemap {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: left;
+    border: 2px solid red;
+    width: 600px;
+    height: 100%;
+    background-color: rgba(83, 182, 182, .2);
+}
+
+.sitemap h3 {
+    font-size: 1.3em;
+    margin-bottom: 12px;
+}
+
+.sitemap p {
+    text-indent: 40px;
+    padding: 5px 0px;
+}
+
+.sitemap-links li {
+    list-style-type: none;
+    text-align: left;
+    line-height: 150%;
+    font-size: 1.2em;
+    font-weight: bold;
+    padding: 5px 0px;
+    text-indent: 40px;
+}
+
+.sitemap-links a:link,
+.sitemap-links a:visited {
+    color:white; 
+    text-decoration: none; 
+    /*background-color: #aacfa2;*/
+    display: block;
+    width: 160px;
+    border-radius: 10px;
+    /*transition: margin-left .45s ease;*/
+}   
+
+.sitemap-links a:hover {
+    color: white;
+    background-color: #53b6b6;
+    margin-bottom: 20px;
+    transition: margin-bottom .45s ease-in;
+}
+
+.footer-container-2 {
+    display: flex;
+    background-color: #e6ebeb;
+    height: 75px;
+    align-items: center;
+}
+
+.footer-menu {
+    display: flex;
+    /*margin: 0px 0px 0px 10px;*/
+    margin-left: 100px;
+}
+
+.footer-phrase {
+    color: #727572;
+    font-size: 15px;
+    font-weight: bold;
+    font-style: italic;
+    letter-spacing: 2px;
+    font-family: 'Shadows Into Light', cursive;
+    width: 500px;
+}
+
+.footer-icons {
+    display: inline-flex;
+    width: 150px;
+    justify-content: space-between;
+    margin-left: 1150px;
+    margin-right: 45px;
+    padding-top: 4px;    
+    align-items: center;
+}
+
+.footer-icons :hover {
+    background-color: #53b6b6;
+    transition: .35s ease;
+    opacity: .8;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*    background-color: #53b6b6;*/

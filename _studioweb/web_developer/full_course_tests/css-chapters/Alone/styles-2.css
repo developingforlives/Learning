@@ -86,6 +86,7 @@ h1, h2, h3, h4, h5, h6 {
     width: 100%;
     height: 80px;
     background-color: rgb(83, 182, 182, .3);
+    /*position: fixed;*/
 }
 
 .nav-links li {
@@ -99,7 +100,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .nav-links a:link,
 .nav-links a:visited {
-    color: rgb(54, 51, 51);
+    color: #26362c;
     text-decoration: none; 
     /*background-color: #aacfa2;*/
     display: block;
@@ -111,10 +112,9 @@ h1, h2, h3, h4, h5, h6 {
 .nav-links a:hover {
     color: white;
     background-color: rgba(83, 182, 182, .6);
-    margin: 0px 10px;
-    transition: margin .20s ease-in;
+    margin: 0px 15px;
+    transition: margin .45s ease-in;
 }
-
 
 .main-text {
     border: 3px dashed red;
@@ -146,6 +146,18 @@ h1, h2, h3, h4, h5, h6 {
     padding: auto 0px;
     width: 600px;
     border: 2px solid red;
+    text-align: center;
+}
+
+.logo-imagem {
+    width: 180px;
+    height: 180px;
+    vertical-align: middle;
+}
+
+.column {
+    border-right: 1px solid white;
+    margin: 10px;
 }
 
 .sitemap {
@@ -191,9 +203,9 @@ h1, h2, h3, h4, h5, h6 {
 
 .sitemap-links a:hover {
     color: white;
-    background-color: #53b6b6;
-    margin-bottom: 20px;
-    transition: margin-bottom .45s ease-in;
+    background-color: rgba(83, 182, 182, .6);
+    margin: 10px 0px;
+    transition: margin .45s ease-in;
 }
 
 .footer-container-2 {
@@ -221,10 +233,9 @@ h1, h2, h3, h4, h5, h6 {
 
 .footer-icons {
     display: inline-flex;
-    width: 150px;
+    width: 125px;
     justify-content: space-between;
-    margin-left: 1150px;
-    margin-right: 45px;
+    margin-left: 1080px;
     padding-top: 4px;    
     align-items: center;
 }

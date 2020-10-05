@@ -83,7 +83,11 @@
     /*border: 1px solid #fff;*/
     border: 2px dotted red;
     margin: 5px;
-    padding-top: 4px;
+  }
+
+  .photo-grid-item-positioning {
+    vertical-align: middle;
+    border-radius: 40px;
   }
 
   .first-item {
@@ -118,15 +122,6 @@
     margin-left: 100px;
     position: relative;
   }
- 
-  .photo-aguas {
-    border: 2px dotted red;
-    padding-top: 4px;
-    position: relative;
-    bottom: 300px;
-    z-index: 0;
-    opacity: .3;
-  }
 
   .p-aguas-container {
     display: block;
@@ -141,7 +136,20 @@
     z-index: 1;
     opacity: .6;
   }
-    
+ 
+  .photo-aguas {
+    border: 2px dotted red;
+    position: relative;
+    bottom: 300px;
+    z-index: 0;
+    opacity: .3;
+  }
+
+  .photo-aguas-positioning {
+    vertical-align: middle;
+    border-radius: 20px;
+  }
+
   .footer {
     display: flex;
     justify-content: space-between;

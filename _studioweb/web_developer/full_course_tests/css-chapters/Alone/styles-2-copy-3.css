@@ -5,14 +5,14 @@ box-sizing: border-box;
 }
 
 body {
-    max-width: 100%;
     /*padding: 0px 20px;*/
     font-size: 16px;
     font-family: monospace;
     color: #000;
-    background-color: #fcfcfc;
+    background-color: #f1faf1;
     width: 100%;
     height: 1500px;
+    margin: 0 auto;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -28,7 +28,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .header-links-container {
-    border: 1px dashed red;
     display: flex;
     position: relative;
     background-color: #2b5a5a;
@@ -78,8 +77,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav-links {
-    border: 1px solid blue;
     display: flex;
+    position: relative;/*I just put it, but I do not think that it is being used*/
     justify-content: center;
     align-items: center;
     width: 100%;
@@ -89,7 +88,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav-links li {
-    border: 1px solid violet;
     display: inline-flex;
     list-style-type: none;
     line-height: 150%;
@@ -114,7 +112,7 @@ h1, h2, h3, h4, h5, h6 {
     color: white;
     background-color: rgba(43, 90, 90, .5);
     margin: 0px 15px;
-    transition: margin .45s ease-in;
+    transition: .25s ease-in;
 }
 
 .dropdown {
@@ -122,6 +120,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .dropdown > span {
+    width: 160px;
     z-index: 2;
     position: relative;  /* This is important! */
     cursor: pointer;
@@ -135,7 +134,7 @@ h1, h2, h3, h4, h5, h6 {
     width: 160px;
     border-radius: 10px;
     margin: 0px 40px;
-    transition: margin .45s ease-in;
+    transition: .40s ease-in;
 }
 
 .dropdown:hover .services-menu {    /* This used to be `.features-menu` */
@@ -144,28 +143,22 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .services-menu {
-    border: 1px solid red;
     display: flex;
-    flex-direction: column;
-    position: fixed;
-    align-items: center;
-    width: 275px;      
-    border-radius: 2px;
+    position: absolute;
     padding-top: 71px;
-    top: 33px;
-    left: 878px;
+    top: -22px;
     z-index: 1;
+    left: -2.0px;
     display: none;
     background-color: rgba(43, 90, 90, .1);
     border-bottom-right-radius: 10px;
     border-bottom-left-radius: 10px;
 }
-  
+
 .services-menu li {
     list-style: none;
-    justify-content: center;
+    justify-content: center;/*useless, I guess*/
     font-size: 1em;
-    width: 270px;
     margin: 8px 0px;
 }
   
@@ -174,15 +167,20 @@ h1, h2, h3, h4, h5, h6 {
     display: block;
     color: #26362c;
     text-decoration: none; 
-    width: 300px;
+    width: 240px;
     border-radius: 10px;
-    transition: none;
-    
 }  
+
+.services-menu:hover {
+    position: absolute;
+    left: -25%;
+}
 
 .services-menu a:hover {
     color: white;
     background-color: rgba(43, 90, 90, .5);
+    margin: 0 auto;
+    transition: .25s ease-in;
 }
 
 .header-logo {

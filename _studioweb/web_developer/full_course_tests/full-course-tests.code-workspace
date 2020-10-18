@@ -11,6 +11,8 @@
 		}
 	],
 	"settings": {
-		"liveServer.settings.multiRootWorkspaceName": "css-chapters"
+		"liveServer.settings.multiRootWorkspaceName": "css-chapters",
+		"liveServer.settings.ChromeDebuggingAttachment": false,
+		"liveServer.settings.CustomBrowser": "firefox"
 	}
 }

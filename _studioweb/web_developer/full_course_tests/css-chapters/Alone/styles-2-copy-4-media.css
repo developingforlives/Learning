@@ -7,7 +7,7 @@ box-sizing: border-box;
 .page {
     /*padding: 0px 20px;*/
     font-size: 16px;
-    font-family: monospace;
+    font-family: monospace, "Arial Black", sans-serif;
     color: #000;
     background-color: #daaab1;
     width: 100%;
@@ -49,7 +49,7 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: bold;
     font-style: italic;
     letter-spacing: 2px;
-    font-family: 'Shadows Into Light', cursive;
+    font-family: "Shadows Into Light", cursive, "Arial Black", sans-serif;
     margin-left: auto;
     margin-right: 170px;
 }
@@ -321,7 +321,7 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: bold;
     font-style: italic;
     letter-spacing: 2px;
-    font-family: 'Shadows Into Light', cursive;
+    font-family: "Shadows Into Light", cursive, "Arial Black", sans-serif;
     width: 500px;
 }
 

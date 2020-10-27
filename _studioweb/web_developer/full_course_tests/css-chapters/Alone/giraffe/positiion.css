@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.page {
+}
+
+h1 {
+    border: 2px dashed green;
+    color: black;
+    text-shadow: 2px 2px red;
+    padding: 0.5em;
+    margin: 0.5em;
+}
+
+.red {
+    display: flex;
+    background-color: #d15934;
+    width: 200px;
+    height: 200px;
+    position: relative;
+    top: 10px;
+    z-index: 0;
+    box-shadow: 10px 10px 10px black;
+    border-radius: 5px;
+}
+
+.blue {
+    display: flex;
+    background-color: rgb(160, 160, 199);
+    position: absolute;
+    top: 10px;
+    width: 180px;
+    height: 180px;
+    z-index: -1;
+}
+
+p {
+    font-size: 2em;
+    color: blue;
+    font-style: italic;
+    text-indent: 2em;
+    padding: 0em 1em;
+    text-align: justify;
+}
+
+@keyframes change-color {
+    /*from {background-color: salmon;}
+    to {background-color: lightblue;}*/
+    0% {background-color: red;}
+    15% {background-color: orange; top: 10px; left: 10px}
+    30% {background-color: yellow; top: 20px; left: 20px}
+    45% {background-color: green; top: 30px; left: 30px}
+    70% {background-color: blue; top: 40px; left: 40px}
+    100% {background-color: purple; top: 50px; left: 50px}
+}
+
+.box-animation:hover {
+    position: relative;
+    border: 2px solid black;
+    animation-name: change-color;
+    animation-duration: 2s;
+    animation-iteration-count: 2;
+}
+
+.responsive {
+    display: block;
+    color: pink;
+    background-color: green;
+    width: 100px;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 0 auto;
+}
+
+.responsive:hover {
+    background-color: chartreuse;
+    color: red;
+    width: 200px;
+    padding: 20px;
+}

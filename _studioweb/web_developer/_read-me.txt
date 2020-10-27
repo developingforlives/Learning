@@ -6,23 +6,23 @@ It was Purchased ($39.99 - €33.93) on 25AUG2020.
 
 
 
-1- Web Foundations - 26AUG2020
+01- Web Foundations - 26AUG2020
 
-2- HTML5 Foundations - 26AUG2020_30AUG2020
+02- HTML5 Foundations - 26AUG2020_30AUG2020
 
-3- CSS Foundations - 31AUG2020_16SEP2020
+03- CSS Foundations - 31AUG2020_16SEP2020
 
-4- Going Live on The Web - 
+04- Going Live on The Web - 
 
-5- Javascript Foundations - 
+05- Javascript Foundations - 
 
-6- PHP7 Foundations - 
+06- PHP7 Foundations - 
 
-7- PHP and MySQL -
+07- PHP and MySQL -
 
-8- Form Validation with PHP and Javascript - 
+08- Form Validation with PHP and Javascript - 
 
-9- CRUD with PHP and MySQLi -
+09- CRUD with PHP and MySQLi -
 
 10 - PHP Tag Cloud - 
 

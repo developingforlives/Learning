@@ -5,11 +5,14 @@
     /*background-size: 100% 100%;*/
 }
 
+body {
+    background-color: #eee;
+}
+
 .page {
     font-size: 1em;
     font-family: monospace, "Arial Black", sans-serif;
     width: 100%;
-    height: 1455px;
     margin: 0 auto;
 }
 
@@ -35,7 +38,7 @@ h1, h2, h3, h4, h5, h6 {
     width: 100%;
     height: 35px;
     color: white;
-    background-color: rgb(43, 90, 90, .8);
+    background-color: rgba(43, 90, 90, .8);
     font-weight: bold;
     font-style: italic;
     letter-spacing: 2px;
@@ -220,26 +223,38 @@ h1, h2, h3, h4, h5, h6 {
     padding-left: 10px;
     text-indent: 30px;
     font-size: 1.1em;
+    line-height: 1.4em;
 }
 
 .main-photo-grid-container {
     display: flex;
     width: 50%;
+    justify-content: center;
 }
 
 .main-photo-grid {
+    border: 1px solid red;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-    position: relative;
+    flex-direction: row;
     align-items: center;
-    align-self: center;
-    height: 600px;
+    justify-content: center;
+}
+
+.main-photo-grid > div > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.main-photo-grid > div {
+    flex: 1 1 200px;
 }
 
 .main-photo-grid-item {
-    margin: 40px;
+    margin: 30px;
     position: relative;
+    border: 1px solid red;
 }
 
 .centered {
@@ -264,7 +279,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .main-photo-grid-item-positioning {
     border-radius: 5px;
-    width: 100%; /* I just put it to be possible resize the window */
+    /*width: 100%; I just put it to be possible resize the window*/ 
 }
 
 .main-photo-grid-item-positioning:hover {

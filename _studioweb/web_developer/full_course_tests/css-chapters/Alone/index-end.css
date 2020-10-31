@@ -33,7 +33,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .first-header-container {
     display: flex;
-    justify-content: right;
+    justify-content: flex-end;
     align-items: center;
     width: 100%;
     height: 35px;
@@ -199,14 +199,12 @@ h1, h2, h3, h4, h5, h6 {
 .main-and-first-footer-photo {
     background-image: url("images/IMG_20180825_151444_Transparent.jpg");
     background-size: cover;
-    height: 980px;
     background-size: 100% 100%;
 }
 
 .main-containers {
     display: flex;
     flex-direction: row;
-    height: 700px;
 }
 
 .main-description {
@@ -241,19 +239,12 @@ h1, h2, h3, h4, h5, h6 {
     justify-content: center;
 }
 
-.main-photo-grid > div > img {
+.main-photo-grid-item img {
     width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
-.main-photo-grid > div {
-    flex: 1 1 200px;
 }
 
 .main-photo-grid-item {
     margin: 30px;
-    position: relative;
     border: 1px solid red;
 }
 
@@ -285,6 +276,13 @@ h1, h2, h3, h4, h5, h6 {
 .main-photo-grid-item-positioning:hover {
     opacity: .8;
     transition: .25s ease-in;
+}
+
+@media only screen and (min-width: 762px) {
+    .main-photo-grid-item {
+        /*flex-basis: 23%; using this the itens will be scale as the browser shrink*/
+        flex-basis: 300px;
+    }
 }
 
 .footer-containers {

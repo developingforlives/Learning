@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.page {
+    width: 900px;
+    margin: 0 auto;
+}
+
+.menu {
+    text-align: center;
+    padding: 42px; /*In this case... Eu peguei: 100px - 16px (tamanho padrão de letras) = 84px / 2 = 42px */
+    height: 100px;
+    background-color: #bac3f5;
+}
+
+.sidebar {
+    float: left;
+    width: 200px;
+    height: 300px;
+    background-color: darkorange;
+}
+
+.content {
+    width: 750px;
+    height: 400px;
+    background-color: darkseagreen;
+}
+
+.footer {
+    height: 200px;
+    background-color: #bac3f5;
+}

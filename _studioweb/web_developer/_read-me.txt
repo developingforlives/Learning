@@ -5,16 +5,15 @@ Web Developer Course
 It was Purchased ($39.99 - €33.93) on 25AUG2020.
 
 
+01- Web Foundations - 26AUG2020 (this is a constant work in progress...)
 
-01- Web Foundations - 26AUG2020
+02- HTML5 Foundations - 26AUG2020_30AUG2020 (this is a constant work in progress...)
 
-02- HTML5 Foundations - 26AUG2020_30AUG2020
+03- CSS Foundations - 31AUG2020_01NOV2020 (this is a constant work in progress...)
 
-03- CSS Foundations - 31AUG2020_16SEP2020
+04- Going Live on The Web - 01NOV2020_01NOV2020 (this is a constant work in progress...)
 
-04- Going Live on The Web - 
-
-05- Javascript Foundations - 
+05- Javascript Foundations - 01NOV2020_
 
 06- PHP7 Foundations - 
 

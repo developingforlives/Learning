@@ -8,9 +8,15 @@
 		},
 		{
 			"path": "css-chapters"
+		},
+		{
+			"path": "Alone"
+		},
+		{
+			"path": "javascript-chapters"
 		}
 	],
 	"settings": {
-		"liveServer.settings.multiRootWorkspaceName": "css-chapters"
+		"liveServer.settings.multiRootWorkspaceName": "javascript-chapters"
 	}
 }

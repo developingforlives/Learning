@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='stylesheet' href='styles-resp-images-ch-11.css'/>
+    <title>Responsive Design</title>
+</head>
+<body>
+    <div class='page'>
+        <div class='section menu'></div>
+        <div class='section header'>
+          <div class='photo'>
+            <img src='images-10-11/photo-small.jpg'
+                 srcset='images-10-11/photo-big.jpg 2000w,
+                         images-10-11/photo-small.jpg 1000w'
+                 sizes='(min-width: 960px) 960px, 100vw'/>
+          </div>
+        </div>
+        <!--<div class='section content'>
+          <img class='illustration' src='images-10-11/illustration.svg' style="max-width: 500px"/>
+          This is one of the rare times an inline style is acceptable, due to the fact that it’s describing an innate property of the image. An image’s physical dimensions are more content than presentation, so it makes sense for this to appear in the HTML rather than the stylesheet.
+        </div>-->
+        <!--We changed around the HTML structure a bit, nesting our <img/> tag in another container. Without it, the image would get distorted because flexbox would try to set its height to be the same as the .content container.-->
+        <div class='section content'>
+          <div class='illustration'>
+            <img src='images-10-11-/illustration-small.png'
+                 srcset='images-10-11/illustration-small.png 1x,
+                         images-10-11/illustration-big.png 2x'
+                 style='max-width: 500px'/>
+          </div>
+        </div>
+        <div class='section sign-up'>
+          <img src='images-10-11/sign-up.svg'/>
+        </div>
+        <div class='section feature-1'>
+          <img src='images-10-11/feature.svg'/>
+        </div>
+        <div class='section feature-2'>
+          <img src='images-10-11/feature.svg'/>
+        </div>
+        <div class='section feature-3'>
+          <img src='images-10-11/feature.svg'/>
+        </div>
+      </div>
+    
+
+
+
+
+
+
+
+    <br><br><br><br><br><br><br><br><br><br>
+    <a class="responsive" href="javascript:(function(){window.open(document.URL, '','width=320,height=480');})();">Open!</a>
+    <br><br><br><br><br><br><br><br><br><br>
+</body>
+</html>
+

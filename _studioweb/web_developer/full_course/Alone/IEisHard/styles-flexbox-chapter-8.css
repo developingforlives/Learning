@@ -1,0 +1,231 @@
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    background-color: #eeeef5;
+  }
+
+  .menu-container {
+    display: flex;
+    color: #fff;
+    background-color: #85acd8;
+    padding: 20px 0;
+    justify-content: center;
+    border: 5px dotted white;
+  }
+
+  .menu {
+    display: flex;
+    width: 900px;
+    justify-content: space-between;
+    border: 1px solid white
+  }
+
+  .signup {
+    margin-left: auto;     /*Auto-margins eat up all the extra space in a flex container, so instead of distributing items equally, this moves the .signup and any following items (.login) to the right side of the container.*/
+    border: 2px dotted red;
+  }
+
+  .login {
+    margin-left: 20px;
+    border: 2px dotted red;
+  }
+
+/*  .links {
+    display: flex;
+    justify-content: flex-end;
+  }*/
+
+  .header-container {
+    display: flex;
+    color: #5995DA;
+    background-color: #D6E9FE;
+    justify-content: center;
+    border: 5px solid black;
+  }
+  
+  .header {
+    display: flex;
+    width: 900px;
+    height: 250px;
+    justify-content: space-between;
+    align-items: center;
+    border: 3px dotted black;
+  }
+
+  .subscribe,
+  .social-links {
+    align-self: flex-end;
+    margin-bottom: 20px;
+    border: 2px dotted red;
+  }
+
+  .photo-grid-container {
+    display: flex;
+    justify-content: center;
+    border: 5px solid yellow
+  }
+  
+  .photo-grid {
+    display: flex;
+    width: 930px;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    border: 2px solid brown;
+  }
+
+  .photo-grid-item {
+    /*border: 1px solid #fff;*/
+    border: 2px dotted red;
+    margin: 5px;
+  }
+
+  .photo-grid-item-positioning {
+    vertical-align: middle;
+    border-radius: 40px;
+  }
+
+  .first-item {
+    order: -1;
+  }
+
+  .last-item {
+    order: 1;
+  }
+
+  .combined {
+    background-color: thistle;
+    border: 4px dotted green;
+    text-align: center;
+    padding: 10px 50px;
+  }
+
+  .image {
+    display: block;
+    border: 5px solid violet;
+    margin: 5px;
+    border-radius: 10px;
+  }
+
+ .photo-aguas-container {
+    display: flex;
+    width: 900px;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    border: 2px solid brown;
+    margin-left: 100px;
+    position: relative;
+  }
+
+  .p-aguas-container {
+    display: block;
+    width: 95%;
+    color: rgb(17, 59, 17);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    text-align: justify;
+    text-indent: 30px;
+    padding: 0px 20px;
+    background-color: yellow;
+    z-index: 1;
+    opacity: .6;
+  }
+ 
+  .photo-aguas {
+    border: 2px dotted red;
+    position: relative;
+    bottom: 300px;
+    z-index: 0;
+    opacity: .3;
+  }
+
+  .photo-aguas-positioning {
+    vertical-align: middle;
+    border-radius: 20px;
+  }
+
+  .footer {
+    display: flex;
+    justify-content: space-between;
+    border: 5px solid green;
+  }
+  
+  .footer-item {
+    border: 1px solid #fff;
+    background-color: #D6E9FE;
+    height: 200px;
+    flex: 1;                      /*tells the items to stretch to match the width of .footer. Since they all have the same weight, they’ll stretch equally:*/
+    border: 2px dotted red;
+  }
+
+  /*.footer-three {
+    flex: 2; }                     /*For example, we can make the third item grow twice as fast as the other two with the following rule:*/
+          
+  .footer-one,
+  .footer-three {
+    background-color: #5995DA;
+    flex: initial;
+    width: 200px;
+  }
+
+  
+
+
+/*I just add this code below because I wanted :)*/
+
+  
+  .link {
+    text-decoration: none;
+  }
+
+  .responsive {
+    display: block;
+    color: blue;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: pink;
+    text-decoration: none;
+    text-align: center;
+    padding: 20px;
+    width: 120px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 20px auto;
+  }
+
+  /*
+  .header {
+    align-items: stretch;
+  }
+
+  .social,
+  .logo,
+  .subscribe {
+  border: 1px solid #5995DA;
+  background-color: pink;
+}
+*/
+
+  /*
+  .date {
+    border: 1px solid #fff; 
+    padding: 30px;
+  }
+
+  .links {
+    border: 1px solid #fff; 
+
+  }
+
+  .signup,
+  .login {
+    border: 1px solid #fff;
+    padding: 10px;
+  }
+  */

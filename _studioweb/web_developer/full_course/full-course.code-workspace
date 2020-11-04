@@ -17,6 +17,10 @@
 		}
 	],
 	"settings": {
-		"liveServer.settings.multiRootWorkspaceName": "javascript-chapters"
+		"liveServer.settings.multiRootWorkspaceName": "javascript-chapters",
+		"editor.fontSize": 16,
+		"files.autoSaveDelay": 500,
+		"editor.wordWrap": "on",
+		"files.autoSave": "afterDelay"
 	}
 }

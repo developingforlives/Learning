@@ -61,6 +61,11 @@ rinse - enxaguar
 
 flip - virar
 
+caught / uncaught - capturado / não capturado
+
+
+
+
 
 
 

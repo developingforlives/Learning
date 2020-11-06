@@ -10,7 +10,6 @@
 
 			p:hover, button:hover {cursor: pointer;}
 
-
 			/*
 
 				increment
@@ -23,7 +22,6 @@
 
 		</style>
 
-
 		<script>
 
 			function sniffer(message) {
@@ -31,15 +29,10 @@
 				console.log("Something happened:"  + message);
 
 			}
-
-		// this will cause a TypeError because JS cannot find the ID of 'butt'		
-		document.getElementById("butt").onmouseover=function(){
+			document.getElementById("butt").onmouseover=function(){
 			sniffer("Inner sniffer");
 		}
-
 		</script>
-
-		
 
 	</head>
 	<body>
@@ -54,13 +47,13 @@
 
 		<p id="secondP">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
 
-
 	<script>
-
-
-
-
 	
+		// now JavaScript can find the ID of 'butt, remember: the browser read Top_Down'		
+		document.getElementById("butt").onmouseover=function(){
+			sniffer("Inner sniffer");
+		}
+
 	</script>
 	</body>
 </html>

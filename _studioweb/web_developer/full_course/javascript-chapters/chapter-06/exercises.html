@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script>
+
+        function myTest(message) {
+            alert("This is working: " + message);
+        }
+
+        function runIt(message) {
+            var target = document.getElementById("first");
+            var currentValue = target.innerHTML;
+            console.log(currentValue);
+
+            if (1 >= 4) {
+                target.innerHTML = ("Worked!!! " + message);
+            } else target.innerHTML = ("Vai tomar açaí!!! " + message);
+        }
+
+    </script>
+
+
+</head>
+
+<body>
+    <h2>JavaScript Conditional Statements - Exercises</h2>
+
+    <button type="button" onclick="myTest('test')">Activate it!</button>
+
+    <br><br>
+
+    <button id="activator" type="button">Activate it - 2</button>
+
+    <p id="first">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste tenetur quam ad provident rerum, optio
+        enim quas doloribus totam vitae beatae magnam illum libero corporis hic culpa quidem! Provident, et.</p>
+
+
+
+    <script>
+
+        document.getElementById("activator").onclick = function () {
+            runIt("Entendeu?")
+        }
+
+        document.getElementById("first");
+        document.write("<h1>test</h1>")
+
+
+    </script>
+
+
+</body>
+
+</html>

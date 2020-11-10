@@ -63,6 +63,10 @@ flip - virar
 
 caught / uncaught - capturado / não capturado
 
+workaround - gambiarra
+
+
+
 
 
 

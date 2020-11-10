@@ -21,6 +21,7 @@
 		"editor.fontSize": 16,
 		"files.autoSaveDelay": 500,
 		"editor.wordWrap": "on",
-		"files.autoSave": "afterDelay"
+		"files.autoSave": "afterDelay",
+		"prettier.tabWidth": 4
 	}
 }

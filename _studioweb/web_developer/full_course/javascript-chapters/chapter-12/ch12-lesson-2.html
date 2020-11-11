@@ -1,18 +1,26 @@
 <!doctype html>
 <html lang="en-US">
+
 <head>
-	<meta charset="utf-8">
-	<title>Chapter 12 - HTML5 Canvas</title>
+  <meta charset="utf-8">
+  <title>Chapter 12 - HTML5 Canvas</title>
 
+  <style type="text/css">
+    main {
+      width: 50%;
+      margin: 0 auto;
+    }
 
-	<style type="text/css">
+    canvas {
+      border: 1px dashed black;
+      padding: 10px;
+      margin: 0 auto;
+      display: block
+    }
+  </style>
 
-    main {width: 50%; margin: 0 auto;}
-		canvas {border: 1px dashed black; padding: 10px; margin: 0 auto; display: block}
-
-	</style>
-	
 </head>
+
 <body>
   <main>
 
@@ -21,12 +29,10 @@
 
   </main>
 
+  <script type="text/javascript">
 
-<script type="text/javascript">
+    document.getElementById("whiteBoard").onclick = function () {
 
-
-    document.getElementById("whiteBoard").onclick  = function() {
-   	  
       var canvas = document.getElementById("whiteBoard");
       var context = canvas.getContext("2d");
 
@@ -34,27 +40,25 @@
       context.lineWidth = 30;
       context.strokeStyle = "rgb(205,40,40)";
 
-
       // Draw the first line, with the standard butt ending.
-      context.moveTo(25,50); // (horizontal / vertical)
-      context.lineTo(400,50);
+      context.moveTo(25, 50); // (horizontal / vertical)
+      context.lineTo(400, 250);
       context.lineCap = "butt";
       context.stroke();
-
 
       // Draw the second line, with a round cap. Change line color and line width
       context.lineWidth = 25;
       context.strokeStyle = "#95CA91";
 
       context.beginPath();
-      context.moveTo(25,120);
-      context.lineTo(400,120);
+      context.moveTo(0, 120);
+      context.lineTo(400, 120);
       context.lineCap = "butt";
       context.stroke();
     }
 
-</script>
-
+  </script>
 
 </body>
+
 </html>

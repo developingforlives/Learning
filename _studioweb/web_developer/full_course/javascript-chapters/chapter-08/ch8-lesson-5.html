@@ -16,18 +16,20 @@
 
         <script>
             document.getElementById("looper").onclick = function () {
-                var dogs = ["German Shepherd", 325425, " Beagle", " Boxer"];
+                var dogs = ["German Shepherd", 325425, " Beagle", " Akita", " Boxer"];
+
+                dogs.sort();
 
                 var pets = ["Pets", "Pets2", dogs, false];
 
                 // true and false - boolean
 
                 document.getElementById("target").innerHTML = pets[2];
-                target.style.color = "red";
+                target.style.color = "green";
                 target.style.fontSize = "40px";
-                target.style.backgroundColor = "blue";
+                target.style.backgroundColor = "pink";
                 target.style.padding = "20px";
-            };
+            }
         </script>
     </body>
 </html>

@@ -1,39 +1,54 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<meta charset="UTF-8">
-		<title>Ch9 More JavaScript Functions Lesson 8</title>
 
-<style type="text/css">
-	div {position: relative}
-	h1 {margin: 25px auto; width: 100%; background-color: #E84B0D; text-align: center; font-size: 24px; font-family: sans-serif; color: #FFF}
-	
-	#leftbutt {width: 100px}
-</style>
+<head>
+	<meta charset="UTF-8">
+	<title>Ch9 More JavaScript Functions Lesson 8</title>
 
-	</head>
-	<body>
-		<div>
-			
-			<h1>More about Functions</h1>
-			<input type="button" id="button" value="Check age">
-			
-			<p id="target"></p>
+	<style type="text/css">
+		div {
+			position: relative
+		}
 
-		</div>
+		h1 {
+			margin: 25px auto;
+			width: 100%;
+			background-color: #E84B0D;
+			text-align: center;
+			font-size: 24px;
+			font-family: sans-serif;
+			color: #FFF
+		}
+
+		#leftbutt {
+			width: 100px
+		}
+	</style>
+
+</head>
+
+<body>
+	<div>
+
+		<h1>More about Functions</h1>
+		<input type="button" id="button" value="Check age">
+
+		<p id="target"></p>
+
+	</div>
 
 	<script>
 
-	/* 
-		true AND false are the boolean data types
-	*/
+		/* 
+			true AND false are the boolean data types
+		*/
 
 
 		function checkAge(age) {
 
 			var oldEnough;
 
-			if(age > 17) {
+			if (age > 17) {
 
 				oldEnough = true;
 
@@ -47,13 +62,30 @@
 
 		}
 
-		document.getElementById("button").onclick=function(){	
+		/*function checkAge(age) {
 
-			console.log(checkAge(12));		
+			var oldEnough;
+
+			if (age < 18) {
+
+				oldEnough = "Voce tem " + age + " anos, cai fora!!!";
+
+			} else {
+
+				oldEnough = "Legal, voce tem " + age + " ja e maior de idade, vou foder voce!!!";
+
+			}
+
+			return oldEnough;
+
+		}*/
+
+		document.getElementById("button").onclick = function () {
+
+			console.log(checkAge(12));
 		}
 
-	
-	
 	</script>
-	</body>
+</body>
+
 </html>

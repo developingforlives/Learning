@@ -29,16 +29,16 @@
 	*/
 
 		function aFunction() {
-			var rightButton = document.getElementById("rightbutt");
-			rightButton.value = "What?";
-			//alert(rightButton.value);
+			var leftButton = document.getElementById("leftbutt");
+			leftButton.value = "What?";
+			//alert(leftButton.value);
 		}
 
 
-
-		document.getElementById("rightbutt").onclick=function(){	
-			 aFunction();
-			
+		function bFunction() {
+			var rightButton = document.getElementById("rightbutt");
+			rightButton.value = "What Caralho?";
+			//alert(rightButton.value);
 		}
 
 		document.getElementById("leftbutt").onclick=function(){	
@@ -46,6 +46,10 @@
 			
 		}
 
+		document.getElementById("rightbutt").onclick=function(){	
+			 bFunction();
+			
+		}
 	
 	</script>
 	</body>

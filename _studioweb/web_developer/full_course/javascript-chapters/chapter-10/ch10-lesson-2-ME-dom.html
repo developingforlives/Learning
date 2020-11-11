@@ -54,22 +54,30 @@
 		}
 		*/
 
-		/* #2: innerHTML 
-				var theText = "Blad blah <h1>The blah</h1>";
-				var targetDiv = document.getElementById("theDiv");
-					targetDiv.innerHTML =  theText + targetDiv.innerHTML;
-					//targetDiv.innerHTML = theText;
-					console.log(targetDiv.innerHTML);
-		*/
+		/* #2: innerHTML */
+		var theText = "Blad blah <h1>The blaaaaaahhh</h1>";
+		var targetDiv = document.getElementById("theDiv");
+		targetDiv.innerHTML = theText + targetDiv.innerHTML;
+		//targetDiv.innerHTML = theText;
+		console.log(targetDiv.innerHTML);
 
-		// #3: DOM Manipulation methods
+
+		var theText2 = "<br><br><br><br><br> More content now... <h1>See HERE!!!</h1>";
+		var targetDiv2 = document.getElementById("theDiv");
+		targetDiv.innerHTML = targetDiv2.innerHTML + theText2;
+		console.log(targetDiv2.innerHTML);
+
+		var divNowContent = document.getElementById("theDiv");
+		console.log(divNowContent);
+
+
+		/* #3: DOM Manipulation methods */
 		function addNewContent() {
 
 			/* step 1: create a tag. step 2: add text to it.*/
 			var para = document.createElement("p");
-			var node = document.createTextNode("The newer text");
+			var node = document.createTextNode("The new text");
 			para.appendChild(node);
-
 
 			/* step 3: add the new <p> tag to the <div>.*/
 			var targetDiv = document.getElementById("theDiv");
@@ -84,7 +92,7 @@
 		}
 
 		document.getElementById("button").onclick = function () {
-			addNewContent();
+			//addNewContent();
 			//alert("Activate!");
 			//myFunction();
 

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ch7-Exercise-While-Loop</title>
+</head>
+
+<body>
+
+    <h1>Using While</h1>
+
+    <input type="button" id="looper" value="Do It Again!!!">
+
+    <script>
+
+        function doItAgain() {
+            
+            var loopCount = 0;
+
+            while (loopCount <= 10) {
+                console.log("Loop now is in: " + loopCount);
+                loopCount = loopCount +1;
+                
+                if (loopCount == 5) {
+                    alert("Loop now is in: " + loopCount)
+                } 
+            }
+            
+            console.log("End of the while loop.")
+
+        }
+
+        document.getElementById("looper").onclick = function () {
+            doItAgain();
+            this.style.color = "green";
+            this.style.backgroundColor = "pink";
+            this.style.fontSize = "20px";
+            this.style.padding = "20px";
+        }
+
+
+    </script>
+
+</body>
+
+</html>

@@ -10,7 +10,10 @@ function outSide() {
 }
 
 document.getElementById("butt").onclick=function(){
-    sniffer("Clicked on secondP");
+    sniffer("Clicked on Button");
     outSide();
 }
 
+document.getElementById("firstP").onmouseover=function(){
+    console.log("you passed the mouse here!");
+}

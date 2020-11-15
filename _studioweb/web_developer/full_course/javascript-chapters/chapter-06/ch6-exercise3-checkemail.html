@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise Conditionals Statments</title>
+</head>
+
+<body>
+
+    <h3>Checking email address...</h3>
+
+    <button type="button" id="check">Check It!</button>
+
+    <br><br><br><br><br>
+    
+    <input type='text' id='txtEmail'/>
+    
+    <input type='submit' name='submit' onclick='checkEmail();'/>
+
+    <script>
+
+        //if, else if, else = se, senão, então
+
+        function checkEmail() {
+            var emailAddress = prompt("Please insert your email address:");
+            console.log(emailAddress);
+            var theAt = emailAddress.indexOf("@")
+            console.log(theAt);
+            
+            if (theAt >= 1) {
+                console.log("You are a valid email address: " + theAt);
+            }   else {
+                console.log("You do not have a valid email address; Where is the @ symbol? Huh?");
+            }
+        }
+
+        document.getElementById("check").onclick = function () {
+            checkEmail();
+        }
+
+        function checkEmail() {
+        var email = document.getElementById('txtEmail');
+        var filter = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+        if (!filter.test(email.value)) {
+            alert('Please provide a valid email address');
+            email.focus;
+            return false;
+        }
+    }
+
+    </script>
+
+</body>
+
+</html>

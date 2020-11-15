@@ -18,16 +18,15 @@ Type of loops in JS: while, do/while, for, for/in
 			while (loopCount > 0) {
 
 				var target = document.getElementById("target");
-				target.innerHTML = "LoopCount: " + loopCount + "<br>" + target.innerHTML;
+				target.innerHTML = target.innerHTML + "LoopCount: " + loopCount + "<br>";
 				console.log("LoopCount is now: " + loopCount);
-				loopCount = loopCount - 1;
+				loopCount = loopCount -1;
 			}
 
 			console.log("End loop");
 			var button = document.getElementById("looper");
 			button.value = "Done looping!";
 			//button.style.fontSize ="34px";
-
 		}
 
 	</script>
@@ -37,13 +36,17 @@ Type of loops in JS: while, do/while, for, for/in
 <body>
 
 	<h1>Looping can make your code spin!</h1>
+
 	<input type="button" id="looper" value="Do it again!">
+	
 	<p id="target"></p>
 
 	<script>
 		document.getElementById("looper").onclick = function () {
 			doItAgain();
-			this.style.color = "red";
+			this.style.color = "darkred";
+			this.style.backgroundColor = "lightgreen";
+			this.style.fontSize = "30px"; 
 		}
 	</script>
 	

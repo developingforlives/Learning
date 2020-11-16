@@ -1,0 +1,564 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /*background-size: 100% 100%;*/
+}
+
+body {
+    background-color: #eee;
+}
+
+.page {
+    width: 100%;
+    margin: 0 auto;
+    font-size: 1em;
+    font-family: monospace, "Arial Black", sans-serif;
+}
+
+/********HEADER********/
+
+.header-containers {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-image: url("images/massage-test-70.png");
+    background-size: cover;
+    background-size: 100% 100%;
+}
+
+.first-header-container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+    line-height: 30px;
+    color: white;
+    background-color: rgba(43, 90, 90, .8);
+    font-weight: bold;
+    font-style: italic;
+    letter-spacing: 2px;
+    font-family: "Shadows Into Light", cursive, "Arial Black", sans-serif;
+    padding-bottom: 2px;
+}
+
+.first-header-container nav {
+    display: inline-flex;
+    justify-content: space-between;
+    width: 100px;
+    margin: 0px 45px 0px 150px;
+    padding-top: 5px;
+}
+
+.first-header-container nav :hover {
+    transition: .35s ease;
+    opacity: .8;
+}
+
+.second-header-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.second-header-container nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    line-height: 80px;
+    background-color: rgba(43, 90, 90, .2);
+}
+
+.second-header-container nav li {
+    display: inline-flex;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3em;
+    line-height: 150%;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 10px;
+}
+
+.second-header-container a:link,
+.second-header-container a:visited {
+    display: block;
+    color: #26362c;
+    text-decoration: none;
+    width: 160px;
+}
+
+.second-header-container nav ul li a:hover {
+    color: white;
+    background-color: rgba(43, 90, 90, .5);
+    border-radius: 10px;
+    transition: .25s ease-in;
+}
+
+.second-header-dropdown {
+    position: relative;
+    margin: 0px 15px;
+}
+
+.second-header-dropdown span {
+    position: relative;  /* This is important! */
+    width: 180px;
+    color: #26362c;
+    border-radius: 10px;
+    z-index: 2;
+}
+
+.second-header-dropdown span:hover {
+    display: block;
+    color: white;
+    background-color: rgba(43, 90, 90, .5);
+    width: 180px;
+    transition: .25s ease-in;
+}
+
+.second-header-dropdown:hover .second-header-services-menu {    /* This used to be `.features-menu` */
+    display: flex;                    
+    flex-direction: column;
+}
+
+.second-header-services-menu {
+    display: flex;
+    position: absolute;
+    padding-top: 78px;
+    top: -24px;
+    margin: 0px -50px;
+    display: none;
+    background-color: rgba(43, 90, 90, .1);
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    z-index: 1;
+}
+
+.second-header-services-menu li {
+    margin: 8px 0px;
+}
+
+.second-header-services-menu a:link,
+.second-header-services-menu a:visited {
+    display: block;
+    font-size: 0.8em;
+    color: #26362c;
+    width: 260px;
+    border-radius: 10px;
+}  
+
+.second-header-services-menu:hover {
+    position: absolute;
+}
+
+.second-header-services-menu a:hover {
+    color: white;
+    background-color: rgba(43, 90, 90, .5);
+    transition: .25s ease-in;
+}
+
+.second-header-logo-phrase-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.second-header-logo {
+    display: flex;
+    justify-content: center;
+    width: 25%;
+    padding-right: 70px;
+}
+
+.second-header-logo img {
+    width: 250px;
+    opacity: .9;
+}
+
+.second-header-phrase {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: "Shadows Into Light", cursive, "Arial Black", sans-serif;
+    color: #a9bba6;
+    font-size: 2em;
+    font-weight: bold;
+    font-style: italic;
+    letter-spacing: 5px;
+    text-shadow: 1px 1px 2px #26362c;
+    width: 70%;
+    margin-right: 20px;
+}
+
+.second-header-phrase em:hover {
+    text-shadow: 2px 2px 4px black;
+}
+
+.second-header-phrase a:link,
+.second-header-phrase a:visited {
+    font-family: "Shadows Into Light", cursive, "Arial Black", sans-serif;
+    color: #a9bba6;
+    font-size: 1em;
+    font-weight: bold;
+    font-style: italic;
+    letter-spacing: 5px;
+    width: 100%;
+    text-shadow: 1px 1px 2px #26362c;
+}
+
+.second-header-phrase a:hover {
+    text-shadow: 2px 2px 4px purple;
+}
+
+
+/********MAIN********/
+
+.main-and-first-footer-photo {
+    background-image: url("images/IMG_20180825_151444_Transparent.jpg");
+    background-size: cover;
+    background-size: 100% 100%;
+}
+
+.main-containers {
+    display: flex;
+    flex-direction: column;
+}
+
+.main-description {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-items: stretch;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    margin: 0px 20px;
+}
+
+.main-description h1, h2 {
+    margin-top: 20px;
+    text-indent: 40px;
+}
+
+.main-description p {
+    padding: 20px 0px 20px 0px;
+    text-indent: 40px;
+    font-size: 1.1em;
+    line-height: 1.4em;
+}
+
+.main-photo-grid-container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.main-photo-grid {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    text-align: center;
+}
+
+.main-photo-grid-item {
+    /*flex-basis: 23%; using this the itens will be scale as the browser shrink*/
+    position: relative;
+    flex-basis: 90%;
+    margin: 20px;
+} 
+
+.main-photo-grid-item img {
+    width: 100%;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 1.3em;
+    font-weight: bold;
+    text-align: center;
+  }
+
+.centered:hover {
+    color: violet;
+    background-color: rgba(43, 90, 90, .3);
+    transition: .25s ease-in;
+}
+
+.main-photo-grid-item-positioning {
+    border-radius: 5px;
+    /*width: 100%; I just put it to be possible resize the window*/ 
+}
+
+.main-photo-grid-item-positioning:hover {
+    opacity: .8;
+    transition: .25s ease-in;
+}
+
+@media only screen and (min-width: 762px) {
+    .main-photo-grid-item {
+        /*flex-basis: 23%; using this the itens will be scale as the browser shrink*/
+        flex-basis: 300px;
+    }
+}
+
+
+.footer-containers {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 100%;
+}
+
+.first-footer-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    color: white;
+    background-color: rgba(43, 90, 90, .8);
+}
+
+.first-footer-logo {
+    text-align: center;
+    align-self: center;
+    width: 25%;
+    flex: 1;
+}
+
+.first-footer-logo img {
+    width: 250px;
+    opacity: .9;
+}
+
+.first-footer-column {
+    border-right: 1px solid white;
+    margin: 20px;
+}
+
+.first-footer-sitemap {
+    display: flex;
+    flex-wrap: wrap;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: .8em;
+    width: 25%;
+    margin-top: 10px;
+    flex: 2;
+}
+
+.first-footer-sitemap-contact {
+    display: flex;
+    flex-wrap: wrap;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: .8em;
+    width: 25%;
+    margin-top: 10px;
+    flex: 1;
+}
+
+.first-footer-sitemap h3, .first-footer-sitemap-contact h3 {
+    font-size: 1.5em;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    text-indent: 30px;
+    letter-spacing: 1px;
+}
+
+.first-footer-sitemap p, .first-footer-sitemap-contact p {
+    font-size: 1.1em;
+    text-indent: 30px;
+    padding: 5px 0px;
+}
+
+.first-footer-sitemap-links {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: left;
+}
+
+.first-footer-sitemap-links li {
+    list-style-type: none;
+    line-height: 150%;
+    font-size: 1.2em;
+    font-weight: bold;
+    text-indent: 30px;
+    padding: 5px 0px;
+}
+
+.first-footer-sitemap-links a:link,
+.first-footer-sitemap-links a:visited {
+    color:white; 
+    text-decoration: none; 
+    display: block;
+    width: 140px;
+    border-radius: 8px;
+    padding: 3px 0px;
+}   
+
+.first-footer-sitemap-links a:hover {
+    color: white;
+    background-color: rgba(132, 196, 196, .6);
+}
+
+.first-footer-dropside {
+    position: relative;
+}
+
+.first-footer-dropside > span {
+    position: relative;  /* This is important! */
+    color: white;
+    border-radius: 8px;
+    z-index: 2;
+}
+
+.first-footer-dropside > span:hover {
+    display: block;
+    color: white;
+    background-color: rgba(43, 90, 90);
+    width: 150px;
+    padding: 4px 0px;
+    margin: -4px 0px;
+}
+
+.first-footer-dropside:hover .first-footer-services-menu {    /* This used to be `.features-menu` */
+    display: flex;                    
+    flex-direction: column;
+}
+
+.first-footer-services-menu {
+    display: flex;
+    position: absolute;
+    top: -82px;
+    margin: 0px 125px;
+    display: none;
+    background-color: rgba(43, 90, 90, .8);
+    border-radius: 8px;
+    z-index: 1;
+}
+
+.first-footer-services-menu li {
+    font-size: 1em;
+    margin: 6px 0px;
+    padding: 4px 0px;
+}
+
+.first-footer-services-menu a:link,
+.first-footer-services-menu a:visited {
+    display: block;
+    background-color: rgba(43, 90, 90, .5);
+    width: 210px;
+    border-radius: 8px;
+}  
+
+.first-footer-services-menu:hover {
+    position: absolute;
+}
+
+.first-footer-services-menu a:hover {
+    color: white;
+    background-color: rgba(132, 196, 196, .6);
+}
+
+.second-footer-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row wrap;
+    background-color: #e6ebeb;
+    align-items: center;
+}
+
+.second-footer-container p {
+    color: #727572;
+    font-size: 1em;
+    font-weight: bold;
+    font-style: italic;
+    letter-spacing: 2px;
+    font-family: "Shadows Into Light", cursive, "Arial Black", sans-serif;
+    width: 500px;
+    margin-left: 100px;
+}
+
+.second-footer-container nav {
+    display: inline-flex;
+    width: 150px;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 100px;
+}
+
+.second-footer-container nav :hover {
+    background-color: #e6ebeb;
+    transition: .35s ease;
+    opacity: .8;
+}
+
+/*.second-footer-phrase {
+    color: #727572;
+    font-size: 1em;
+    font-weight: bold;
+    font-style: italic;
+    letter-spacing: 2px;
+    font-family: "Shadows Into Light", cursive, "Arial Black", sans-serif;
+    width: 500px;
+    margin-left: 100px;
+}
+
+.second-footer-menu {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.second-footer-icons {
+    display: inline-flex;
+    width: 150px;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 100px;
+}
+
+.second-footer-icons :hover {
+    background-color: #e6ebeb;
+    transition: .35s ease;
+    opacity: .8;
+}*/
+
+
+
+@keyframes change-color {
+    /*from {background-color: salmon;}
+    to {background-color: lightblue;}*/
+    0% {background-color: red;}
+    15% {background-color: orange; top: 5px; left: 5px}
+    30% {background-color: yellow; top: 10px; left: 10px}
+    45% {background-color: green; top: 15px; left: 15px}
+    70% {background-color: blue; top: 20px; left: 20px}
+    100% {background-color: purple; top: 25px; left: 25px}
+}
+
+.responsive {
+    display: block;
+    color: pink;
+    background-color: green;
+    width: 100px;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 0 auto;
+}
+
+.responsive:hover {
+    position: relative;
+    border: 2px solid black;
+    animation-name: change-color;
+    animation-duration: 2s;
+}

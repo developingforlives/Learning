@@ -1,0 +1,131 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body {
+    max-width: 100%;
+    /*padding: 0px 20px;*/
+    font-size: 16px;
+    font-family: monospace;
+    color: #000;
+    background-color: #fcfcfc;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    padding: 10px 0px;
+    text-indent: 30px;
+}
+
+.header-container {
+    display: flex;
+    color: white;
+    background-color: #4bb2b2;
+    height: 35px;
+    align-items: center;
+}
+
+.header-menu {
+    display: flex;
+    width: 670px;
+    /*margin: 0px 0px 0px 10px;*/
+    margin-left: auto;
+}
+
+.header-phrase {
+    font-size: 15px;
+    font-weight: bold;
+    font-style: italic;
+    letter-spacing: 2px;
+    font-family: 'Shadows Into Light', cursive;
+}
+
+.header-icons {
+    display: inline-flex;
+    width: 100px;
+    justify-content: space-between;
+    /*margin-left: 500px;*/
+    margin-left: auto;
+    margin-right: 45px;
+    padding-top: 4px;    
+}
+
+.header-icons :hover {
+    background-color: #4bb2b2;
+    transition: .35s ease;
+    opacity: .8 ;
+}
+
+.main {
+    /*background: #ffffff url("images/IMG-20160327-ligther.jpg") no-repeat right top fixed;*/
+    background-color: #cee2ce;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 853px;
+}
+
+.nav-main {
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: lighter;
+    background-image: url("images/massage_3.png");
+    background-repeat: round;
+    height: 310px;
+    opacity: .8;
+    border: 1px black solid;
+}
+
+.nav-main li {
+    padding: 4px;
+}
+
+.nav-main a:hover {
+    background-color: #4bb2b2;
+}
+
+.nav-links a:link, a:visited  {
+    color: #000; 
+    text-decoration: none; 
+    /*background-color: #aacfa2;*/
+    padding-left: 10px;
+    display: block;
+    width: 145px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    border: 1px solid #4bb2b2;
+    transition: margin-bottom .45s ease-in;
+}   
+    
+    /* mouse over link */
+.nav-links a:hover { 
+    background-color: #4bb2b2;
+    margin-bottom: 45px;
+}
+
+ul {
+    padding: 25px 0px 0px 30px
+}
+
+ul li {
+    list-style-type: none;
+    line-height: 150%;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.main h1 {
+    padding-top: 100px;
+    }
+
+
+.footer {
+    position: relative;
+    color: white;
+    background-color: #4bb2b2;
+    padding: 5px 200px 5px 0px;
+    text-align: right;
+    border-top: 1px solid black;
+}
+
+

@@ -65,6 +65,10 @@ caught / uncaught - capturado / não capturado
 
 workaround - gambiarra
 
+flaws - falhas, defeitos, imperfeições
+
+
+
 
 
 

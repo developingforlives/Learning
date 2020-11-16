@@ -1,0 +1,55 @@
+var InffuseAnalytics=new function(){var a=this;
+this.initialized=false;
+this.init=function(b,c){if(a.initialized){return
+}(function(m,d){if(!d.__SV){var h,l,j,k;
+window.mixpanel=d;
+h=m.createElement("script");
+h.type="text/javascript";
+h.async=!0;
+h.src=("https:"===m.location.protocol?"https:":"http:")+"//cdn.mxpnl.com/libs/mixpanel-2.2.min.js";
+l=m.getElementsByTagName("script")[0];
+l.parentNode.insertBefore(h,l);
+d._i=[];
+d.init=function(g,n,o){function i(e,q){var f=q.split(".");
+2==f.length&&(e=e[f[0]],q=f[1]);
+e[q]=function(){e.push([q].concat(Array.prototype.slice.call(arguments,0)))
+}
+}var p=d;
+"undefined"!==typeof o?p=d[o]=[]:o="mixpanel";
+p.people=p.people||[];
+p.toString=function(e){var f="mixpanel";
+"mixpanel"!==o&&(f+="."+o);
+e||(f+=" (stub)");
+return f
+};
+p.people.toString=function(){return p.toString(1)+".people (stub)"
+};
+j="disable track track_pageview track_links track_forms register register_once alias unregister identify name_tag set_config people.set people.set_once people.increment people.append people.track_charge people.clear_charges people.delete_user".split(" ");
+for(k=0;
+k<j.length;
+k++){i(p,j[k])
+}d._i.push([g,n,o])
+};
+d.__SV=1.2
+}})(document,window.mixpanel||[]);
+mixpanel.init("956d3de3732e45785a1597ef7eb7c460");
+if(typeof b!="undefined"){if(c){mixpanel.alias(b)
+}else{mixpanel.identify(b)
+}}if(typeof fbq!="undefined"){fbq("init","352118441874055",{extern_id:Inffuse.user.id()});
+fbq("track","ViewContent",{platform:Inffuse.platform,plan:Inffuse.user.plan()})
+}a.initialized=true
+};
+this.track=function(c,b,d){mixpanel.track(c,b,d)
+};
+this.trackHandler=function(c,b){return(function(e,d){return function(){a.track(e,d)
+}
+})(c,b)
+};
+this.tag=function(c,e,d){var b=c;
+if(e||d){b=[e,d].join(" ")
+}mixpanel.name_tag(b);
+mixpanel.people.set({"$email":c,"$name":b})
+};
+this.register=function(b){mixpanel.register(b)
+}
+};

@@ -1,0 +1,254 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body {
+    max-width: 100%;
+    /*padding: 0px 20px;*/
+    font-size: 16px;
+    font-family: monospace;
+    color: #000;
+    background-color: #fcfcfc;
+    height: 1500px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    padding: 10px 0px;
+    text-indent: 40px;
+}
+
+.header-container {
+    display: flex;
+    color: white;
+    background-color: #53b6b6;
+    height: 33px;
+    align-items: center;
+}
+
+.header-menu {
+    display: flex;
+    width: 670px;
+    /*margin: 0px 0px 0px 10px;*/
+    margin-left: auto;
+    margin-bottom: 5px;
+}
+
+.header-phrase {
+    font-size: 15px;
+    font-weight: bold;
+    font-style: italic;
+    letter-spacing: 2px;
+    font-family: 'Shadows Into Light', cursive;
+}
+
+.header-icons {
+    display: inline-flex;
+    width: 100px;
+    justify-content: space-between;
+    /*margin-left: 500px;*/
+    margin-left: auto;
+    margin-right: 45px;
+    padding-top: 5px;    
+}
+
+.header-icons :hover {
+    background-color: #53b6b6;
+    transition: .35s ease;
+    opacity: .8;
+}
+
+.main {
+    /*background: #ffffff url("images/IMG-20160327-ligther.jpg") no-repeat right top fixed;*/
+    background-color: #cee2ce;
+    /*background-size: cover;
+    background-attachment: fixed;*/
+}
+
+.nav-main {
+    display: flex;
+    justify-content: center;
+    font-size: 1.2em;
+    background-image: url("images/massage_3.png");
+    background-size: cover;
+    height: 300px;
+    opacity: .8;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 80px;
+    background-color: rgb(83, 182, 182, .3);
+    /*position: fixed;*/
+}
+
+.nav-links li {
+    display: inline-flex;
+    list-style-type: none;
+    line-height: 150%;
+    font-size: 1.3em;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 5px;
+}
+
+.nav-links a:link,
+.nav-links a:visited {
+    color: #26362c;
+    text-decoration: none; 
+    /*background-color: #aacfa2;*/
+    display: block;
+    width: 160px;
+    border-radius: 10px;
+    /*transition: margin-left .45s ease;*/
+}   
+
+.nav-links a:hover {
+    color: white;
+    background-color: rgba(83, 182, 182, .6);
+    margin: 0px 15px;
+    transition: margin .45s ease-in;
+}
+
+.main-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.main-text p {
+    text-indent: 30px;
+    text-align: justify;
+    padding: 0px 10px 20px 10px;
+}
+
+.main h1 {
+    padding-top: 25px;
+}
+
+.footer-container-1 {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    background-color: #afc9c9;
+    height: 240px;
+}
+
+.logo {
+    align-self: center;
+    padding: auto 0px;
+    width: 600px;
+    text-align: center;
+}
+
+.logo-imagem {
+    width: 180px;
+    height: 180px;
+    vertical-align: middle;
+}
+
+.column {
+    border-right: 1px solid white;
+    margin: 10px;
+}
+
+.sitemap {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: left;
+    width: 600px;
+    height: 100%;
+    background-color: rgba(83, 182, 182, .2);
+}
+
+.sitemap h3 {
+    font-size: 1.3em;
+    margin-bottom: 12px;
+}
+
+.sitemap p {
+    text-indent: 40px;
+    padding: 5px 0px;
+}
+
+.sitemap-links li {
+    list-style-type: none;
+    text-align: left;
+    line-height: 150%;
+    font-size: 1.2em;
+    font-weight: bold;
+    padding: 5px 0px;
+    text-indent: 40px;
+}
+
+.sitemap-links a:link,
+.sitemap-links a:visited {
+    color:white; 
+    text-decoration: none; 
+    /*background-color: #aacfa2;*/
+    display: block;
+    width: 160px;
+    border-radius: 10px;
+    /*transition: margin-left .45s ease;*/
+}   
+
+.sitemap-links a:hover {
+    color: white;
+    background-color: rgba(83, 182, 182, .6);
+    margin: 10px 0px;
+    transition: margin .45s ease-in;
+}
+
+.footer-container-2 {
+    display: flex;
+    background-color: #e6ebeb;
+    height: 75px;
+    align-items: center;
+}
+
+.footer-menu {
+    display: flex;
+    /*margin: 0px 0px 0px 10px;*/
+    margin-left: 100px;
+}
+
+.footer-phrase {
+    color: #727572;
+    font-size: 15px;
+    font-weight: bold;
+    font-style: italic;
+    letter-spacing: 2px;
+    font-family: 'Shadows Into Light', cursive;
+    width: 500px;
+}
+
+.footer-icons {
+    display: inline-flex;
+    width: 125px;
+    justify-content: space-between;
+    margin-left: 1080px;
+    padding-top: 4px;    
+    align-items: center;
+}
+
+.footer-icons :hover {
+    background-color: #e6ebeb;
+    transition: .35s ease;
+    opacity: .8;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*    background-color: #53b6b6;*/

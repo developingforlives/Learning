@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<title>Ch6 JS Conditional statements</title>
+
+	<script type="text/javascript">
+
+		/* 
+
+		Properties are the values associated with a JavaScript object. 
+		innerHTML is a property that is the HTML content of an element
+
+		*/
+
+		function runIt() {
+			var target = document.getElementById("first");
+			var currentValue = target.innerHTML;
+			console.log(document.getElementById("first").innerHTML);
+			if (1 < 4) {
+				target.innerHTML = "It isssssss! - 1";
+			}
+		}
+
+		function runIt2() {
+			var target = document.getElementById("second");
+			var currentValue = target.innerHTML;
+			console.log(document.getElementById("second").innerHTML);
+			if (1 < 4) {
+				target.innerHTML = "It isssssss! - 2";
+			}
+		}
+
+		/*
+		var str = "This is it";
+		var result = str.indexOf("@");
+		console.log(result);
+
+		if(result != -1) {
+			console.log("Result is: " + result);
+			console.log(true);
+		} else {
+			console.log("Result is: " + result);
+			console.log(false);
+		}*/
+
+	</script>
+
+</head>
+
+<body>
+
+	<h2>JavaScript Conditional Statements</h2>
+
+	<button id="activator" type="button">Activate it!</button>
+
+	<p id="first">1 - Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <span>...</span>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Dog biscuits.</p>
+
+	<button id="activator-2" type="button">Activate it! - 2</button>
+
+	<p id="second">2 - Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores voluptatum magnam dolor iste dolore a sunt accusantium aperiam veritatis impedit? Sunt sit nulla ipsa doloribus recusandae earum aut nam ipsam!</p>
+
+	<br><br>
+
+	<p id="third" style="color: white; background-color: black; padding: 10px; display: inline;">3- Teste do teste.</p>
+
+
+	<script>
+		document.getElementById("activator").onclick = function () {
+			runIt();
+		}
+		document.getElementById("activator-2").onclick = function () {
+			runIt2();
+		}
+
+		var targetTag = document.getElementById("third");
+		targetTag.innerHTML = "Hello!";
+
+	</script>
+</body>
+
+</html>

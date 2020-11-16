@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    border: 1px solid red;
+    width: 100%;
+    height: 500px;
+    background-color: #ccc;
+    display: flex;
+    /*flex-wrap: wrap;
+    flex-direction: row;*/
+    flex-flow: wrap row;
+    justify-content: space-between;
+    align-items: flex-start; /*horizontal align*/
+    align-content: space-between; /*vertical align*/
+}
+
+/*.item {
+    border: 1px solid blue;
+    order: 1;
+}
+
+.item2 {
+    order: 2;
+}*/
+
+.item {
+    background-color: lawngreen;
+    flex-basis: 30%;
+}
+
+.item2 {
+    background-color: pink;
+    flex-basis: 60%;
+    /*flex: 0 1 100px* this is the same as writing, flex-grow: flex-shrink: and flex-basis: */
+}   
+

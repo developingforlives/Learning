@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise Conditionals Statments</title>
+</head>
+
+<body>
+
+    <h3>Check the total of the numbers.</h3>
+
+    <button type="button" id="check">Check It!</button>
+
+    <script>
+
+        //if, else if, else = se, senão, então
+
+        function checkResult() {
+
+            var num1 = prompt("Insert the first number:");
+            num1 = parseFloat(num1);
+            ; console.log(num1);
+
+            var num2 = prompt("Insert the second number:");
+            num2 = parseFloat(num2);
+            console.log(num2);
+
+            var total = parseFloat(num1 + num2);
+            console.log(total);
+
+            if (total < 0) {
+                console.log("You have a negative balance of: " + total);
+            } else if (total > 0) {
+                console.log("You have a balance of: " + total);
+            } else {
+                if (total != isNaN(total)) {
+                    console.log("You must only type number, Do I need to draw it?");
+                }
+                else {
+                    console.log("You have nothing in your account at moment: " + total);
+                }
+            }
+        }
+
+        document.getElementById("check").onclick = function () {
+            checkResult();
+        }
+
+    </script>
+
+</body>
+
+</html>

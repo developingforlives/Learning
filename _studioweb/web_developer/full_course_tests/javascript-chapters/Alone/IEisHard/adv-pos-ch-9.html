@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles-advanced-positioning-chaper-9.css" />
+    <title>Positioning is Easy!</title>
+</head>
+
+<body>
+
+    <br>
+
+    <div class='container'>
+        <div class='example relative'>
+            <div class='item'><img src='images-9/static.svg' /></div>
+            <div class='item item-relative'><img src='images-9/relative.svg' /></div>
+            <div class='item'><img src='images-9/static.svg' /></div>
+        </div>
+    </div>
+
+    <br>
+
+    <div class='container'>
+        <div class='example absolute'>
+            <div class='item'><img src='images-9/static.svg' /></div>
+            <div class='item item-absolute'><img src='images-9/absolute.svg' /></div>
+            <div class='item'><img src='images-9/static.svg' /></div>
+        </div>
+    </div>
+
+    <br>
+
+    <div class='container'>
+        <div class='example fixed'>
+            <div class='item'><img src='images-9/static.svg' /></div>
+            <div class='item item-fixed'><img src='images-9/fixed.svg' /></div>
+            <div class='item'><img src='images-9/static.svg' /></div>
+        </div>
+    </div>
+
+    <script>
+        var left = 0;
+
+        function frame() {
+            var element = document.querySelector('.item-relative');
+            left += 2;
+            element.style.left = left + 'px';
+            if (left >= 300) {
+                clearInterval(id)
+            }
+        }
+
+        var id = setInterval(frame, 10)
+    </script>
+
+    <!--
+    <script>
+        var left = 0;
+
+        function frame() {
+            var element = document.querySelector('.item-relative');
+            left -= 2;
+            element.style.left = left + 'px';
+            if (left <= -300) {
+                clearInterval(id)
+            }
+        }
+
+        var id = setInterval(frame, 10)
+    </script>
+    -->
+
+    <br><br><br><br><br><br><br>
+    <a href="https://www.internetingishard.com/html-and-css/advanced-positioning/" title="Advanced Positioning" target="_blank" style="text-decoration: none;">Advanced Positioning</a>
+
+    <br><br><br><br><br><br><br><br><br><br>
+    <a class="responsive"
+        href="javascript:(function(){window.open(document.URL, '','width=320,height=480');})();">Open!</a>
+    <br><br><br>
+    <hr>
+    <br><br>
+
+</body>
+
+</html>

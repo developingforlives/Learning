@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>Ch8 JavaScript Objects and Arrays</title>
+        <!--
+	
+	http://www.w3schools.com/jsref/jsref_obj_array.asp
+
+-->
+    </head>
+    <body>
+        <h1>Looping can make your code spin!</h1>
+        <input type="button" id="looper" value="Do it again!" />
+        <p id="target"></p>
+
+        <br /><br />
+
+        <input type="button" id="which" value="Which is?" />
+        <h2 id="target2">Which is...</h2>
+
+        <br /><br />
+
+        <h3>What kind of banana do you like?</h3>
+        <a href="#" id="confirm">clique here!</a>
+
+        <script>
+            document.getElementById("looper").onclick = function () {
+                var dogs = ["German Shepherd", " Poodle", " Beagle"];
+
+                document.getElementById("target").innerHTML = dogs[2];
+            };
+
+            document.getElementById("which").onclick = function () {
+                var cars = ["SEAT", " AUDI", " Volkswagen", " Skoda"];
+
+                document.getElementById("target2").innerHTML = cars[0];
+            };
+
+            var bananas = ["nanica", " prata", " maca", " ouro"];
+
+            document.getElementById("confirm").onclick = function () {
+                window.alert(bananas[1]);
+            };
+        </script>
+    </body>
+</html>

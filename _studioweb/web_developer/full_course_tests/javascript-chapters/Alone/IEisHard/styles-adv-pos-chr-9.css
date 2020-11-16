@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    height: 1500px;
+    background-color: #e9e6e3;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    border: 1px dashed red;
+    background-color: #ecdecc;
+  }
+
+  .example {
+    display: flex;
+    justify-content: space-around;
+    width: 800px;
+    margin: 50px 0;
+    background-color: #D6E9FE;
+    border: 1px dashed red;
+  }
+  
+  .item img {
+    display: block;
+    border: 1px dashed green;
+  }
+
+  .item-relative {
+    position: relative;
+    top: 30px;
+    left: 30px;
+    /*bottom: 30px;
+    right: 30px; Note: these properties also accept negative values, which means there’s two ways to specify the same offset.  */
+  }
+
+  .item-absolute {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+  }
+
+  .absolute {
+    position: relative;
+  }
+
+  .item-fixed {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+  }
+
+
+
+
+  .responsive {
+    display: block;
+    color: blue;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: pink;
+    text-decoration: none;
+    text-align: center;
+    padding: 20px;
+    width: 120px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 20px auto;
+  }

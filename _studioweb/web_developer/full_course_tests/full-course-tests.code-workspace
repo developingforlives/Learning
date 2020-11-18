@@ -1,19 +1,22 @@
 {
-    "folders": [
-        {
-            "path": "first-page"
-        },
-        {
-            "path": "html-chapters"
-        },
-        {
-            "path": "css-chapters"
-        }
-    ],
-    "settings": {
-        "liveServer.settings.multiRootWorkspaceName": "css-chapters",
-        "liveServer.settings.ChromeDebuggingAttachment": false,
-        "liveServer.settings.CustomBrowser": "chrome",
-        "prettier.tabWidth": 3
-    }
+   "folders": [
+      {
+         "path": "first-page"
+      },
+      {
+         "path": "html-chapters"
+      },
+      {
+         "path": "css-chapters"
+      },
+      {
+         "path": "javascript-chapters"
+      }
+   ],
+   "settings": {
+      "liveServer.settings.multiRootWorkspaceName": "javascript-chapters",
+      "liveServer.settings.ChromeDebuggingAttachment": false,
+      "liveServer.settings.CustomBrowser": "chrome",
+      "prettier.tabWidth": 3
+   }
 }

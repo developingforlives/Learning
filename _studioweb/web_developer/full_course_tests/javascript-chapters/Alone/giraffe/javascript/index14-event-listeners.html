@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8" />
+   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   <title>Giraffe - Event Listeners</title>
+</head>
+
+<body>
+   <img id="image" src="../cat.jpg" title="Cat" alt="Cat" width="200" />
+
+   <br /><br /><br />
+
+   <button id="button" type="button" onclick="youClicked(' do not you?')">Click Me</button>
+
+   <br /><br /><br />
+
+   <button id="button2" type="button" onmouseover="youMouseOver(' you passed the mouse here, do not you?')">Click Me</button>
+
+   <!-- Now Mike's way... -->
+
+   <br /><br /><br />
+
+   <button id="button3" type="button" onclick="handleClick(this, 'Do not you?')">Click Me</button>
+
+   <br /><br /><br />
+
+   <button id="button4" type="button" onclick="whenClicked()">Click Me</button>
+
+   <br /><br /><br />
+
+   <button id="button5" type="button" onclick="whenClicked()">Click Me</button>
+
+   <script src="script14-event-listeners.js"></script>
+</body>
+
+</html>

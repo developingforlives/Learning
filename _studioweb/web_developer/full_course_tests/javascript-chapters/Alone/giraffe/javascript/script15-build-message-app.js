@@ -10,5 +10,3 @@ button.addEventListener("click", function () {
    messages.appendChild(newMessage);
    textbox.value = "";
 });
-
-

@@ -48,30 +48,34 @@ else - senao
 
 */
 
-document.write("<h1 style='color: red'>rola ||</h1>")
+document.write("<h1 style='color: red'>Amo Você</h1>")
 
 document.write("<br><hr><br>");
 
-var luckNumber = (Math.round(Math.random() * 10));
+for (var i = 1; i <=3; i++) {
 
-alert(luckNumber);
+   var luckNumber = (Math.round(Math.random() * 100));
 
-var number = parseInt(window.prompt("Let's see if you have luck...\n\nI insert a integer number from 0 to 100"));
+   console.log(luckNumber);
 
-if (number == luckNumber) {
-   document.write("<h1 style='color:green'>You are really lucky, You Win!!!</h1>");
-} else {
-   document.write("<h1 style='color:red'>You Lose!!!</h1>");
-}
+   var number = parseInt(window.prompt("Let's see if you have luck...\n\nInsert a integer number from 0 to 100"));
 
-document.write("The number luck is: " + luckNumber + ", but do not be upset, Try Again!");
+   if (number == luckNumber) {
+      result = "<h1 style='color:green'>You are really lucky, You Win!!!</h1>";
+   } else if (isNaN(number)) {
+      result = number + " Foda-se";
+   } else {
+      result = "<h1 style='color:red'>You Lose!!!</h1>";
+   }
+
+   document.write(result);
+
+   console.log("Lopping is now: " + i);
+} 
+
+
+
+//document.write("The number luck is: " + luckNumber + ", but do not be upset, Try Again!");
 
 
 //I AM POWERFUL
-
-
-
-
-
-
-

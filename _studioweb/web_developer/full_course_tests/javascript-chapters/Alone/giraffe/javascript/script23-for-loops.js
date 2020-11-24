@@ -21,29 +21,30 @@ for (var i = 0; i < fruits.length; i++) {
 document.write("<br><hr><br>");
 
 
+var num = 0;
 for (var i = 0; i <= 10; i++) {
-   document.write(i + " x 1 = " + i + "<br>");
+   document.write("1 x " + (num++) + " = " + i + "<br>");
 }
 
 document.write("<br><hr><br>");
 
-
+var num = 0;
 for (var i = 0; i <= 20; (i = i += 2)) {
-   document.write(i + " x 2 = " + i + "<br>");
+   document.write("2 x " + (num++) + " = " + i + "<br>");
 }
 
 document.write("<br><hr><br>");
 
-
+var num = 0;
 for (var i = 0; i <= 50; (i = i += 5)) {
-   document.write(i + " x 5 = " + i + "<br>");
+   document.write("5 x " + (num++) + " = " + i + "<br>");
 }
 
 document.write("<br><hr><br>");
 
-
+var num = 0;
 for (var i = 0; i <= 100; (i = i += 10)) {
-   document.write(i + " x 10 = " + i + "<br>");
+   document.write("10 x " + (num++) + " = " + i + "<br>");
 }
 
 document.write("<br><hr><br>");

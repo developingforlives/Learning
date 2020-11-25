@@ -17,6 +17,7 @@
       "liveServer.settings.multiRootWorkspaceName": "javascript-chapters",
       "liveServer.settings.ChromeDebuggingAttachment": false,
       "liveServer.settings.CustomBrowser": "chrome",
-      "prettier.tabWidth": 3
+      "prettier.tabWidth": 3,
+      "editor.tabSize": 3
    }
 }

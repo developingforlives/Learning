@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>13- Properties and Methods</title>
+
+</head>
+<body>
+
+</body>
+   <script>
+      var item = "Bottle of Water"
+      console.log(item);
+      console.log(item.length); // this is a example of Property. Properties are useful to show information about an object.
+      
+      console.log(item.indexOf("of")); //this is a example of Method, note that a method always require a parameter. Parameters are useful, because they in fact can make changes. Note: Methods are built-in JavaScript, that is mean, that they make part of the programming language  
+
+      console.log(item.substring(10, 15));
+
+      console.log(item.replace("Water", "Juice"));
+
+      console.log(item.toUpperCase());
+
+      console.log(item.toLowerCase());
+
+
+      var items = ["Bottle", 4, true];
+
+      console.log(items); //you can expande in the console browser and you will find load of Methods that you ca use.
+      
+      console.log(items.join());
+
+      console.log(items.join(", "));
+
+      console.log(items.join(" - "));
+
+      items.push("Banana");
+
+      console.log(items);
+
+      items.pop();
+
+      console.log(items);
+
+      console.log(items.push());
+
+   </script>
+</html>

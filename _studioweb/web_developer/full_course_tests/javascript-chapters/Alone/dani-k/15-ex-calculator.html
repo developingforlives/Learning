@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>15- Exercises Calculator</title>
+
+</head>
+<body>
+
+   <!--Using IDs and document.querySelector-->
+   <form>
+      Value: 1 <input type="text" id="value1">
+      <br>
+      Value: 2 <input type="text" id="value2">
+      <br>
+      Operator:
+      <select id="operator">
+         <option value="add">Add</option>
+         <option value="min">Minus</option>
+         <option value="div">Divide</option>
+         <option value="mul">Multiple</option>
+      </select>
+      <button type="button" onclick="calc()">Calculate</button>
+   </form>
+
+   <div id="result"></div>
+
+   <br><br><hr><br><br>
+
+   <!--Using Classes and document.querySelector-->
+   <form>
+      Value: 1 <input type="text" class="value1">
+      <br>
+      Value: 2 <input type="text" class="value2">
+      <br>
+      Operator:
+      <select class="operator">
+         <option value="add">Add</option>
+         <option value="min">Minus</option>
+         <option value="div">Divide</option>
+         <option value="mul">Multiple</option>
+      </select>
+      <button type="button" onclick="calc2()">Calculate</button>
+   </form>
+
+   <div class="result"></div>
+
+   <br><br><hr><br><br>
+
+   <!--Using getElementById-->
+   <form>
+      Value: 1 <input type="text" id="value1e">
+      <br>
+      Value: 2 <input type="text" id="value2e">
+      <br>
+      Operator:
+      <select id="operatore">
+         <option value="add">Add</option>
+         <option value="min">Minus</option>
+         <option value="div">Divide</option>
+         <option value="mul">Multiple</option>
+      </select>
+      <button type="button" onclick="calc3()">Calculate</button>
+   </form>
+
+   <div id="resulte"></div>
+
+</body>
+   <script src="15-ex-calculator.js"></script>
+</html>

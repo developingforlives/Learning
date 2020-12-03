@@ -18,6 +18,7 @@
       "liveServer.settings.ChromeDebuggingAttachment": false,
       "liveServer.settings.CustomBrowser": "chrome",
       "prettier.tabWidth": 3,
-      "editor.tabSize": 3
+      "editor.tabSize": 3,
+      "files.autoSave": "afterDelay"
    }
 }

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>15- Exercises Calculator</title>
+
+</head>
+<body>
+
+</body>
+   <script>
+
+      //Global Scope is a variable that can be used in any part of the code, however, this allocated memory and may cause issues performance in the browser.
+      var number = 18;
+
+      function calc() {
+         return number;
+      }
+
+      console.log(calc());
+      console.log(number); //this can be accessed because the variable: number is in the root (Global Scope)
+      
+
+      document.write("<br><br>");
+
+      //Local Scope is a variable that can be used locally, this is means that the variable will be used only when necessary to 
+
+      function calc2() {
+         var number2 = 181;
+         return number2;
+      }
+
+      console.log(calc2());
+      console.log(number2); //this can not be accessed because the variable: number is inside of Fucntion (Local Scope)
+
+   </script>
+</html>

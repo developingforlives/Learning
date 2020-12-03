@@ -74,7 +74,7 @@ function elegibility() {
 
    var birthYear = document.getElementById("birth").value;
 
-   result = document.getElementById("btn");
+   var result = document.getElementById("btn");
 
    result = currentYear - birthYear;
 

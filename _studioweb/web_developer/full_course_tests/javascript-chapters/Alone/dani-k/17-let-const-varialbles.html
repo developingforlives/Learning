@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>17- Let and Cost Variables</title>
+</head>
+
+<body>
+
+</body>
+<script>
+
+   var a = "Global Scope";
+
+   function example() {
+      var b = "Local Scope";
+   }
+
+   console.log(a); //this variable can be accessed of any part of the code, but demands more memory allocated.
+
+   //console.log(b); //you got a error message because this variable in fact is insido of a Function (this is an example of Local Scope).
+
+   if (1 == 1) {
+      var a = 10;
+   }
+
+   console.log(a);
+
+   //***VERY IMPORTANT*** A variable inside of a Function Scope, cannot be accessed externally, BUT a variable inside of Block Scope (if, while, for), can be accessed accessed externally.
+
+   //THEREFORE... let and const came to fix this flow fault with var variable.
+
+   //let
+
+   if (1 == 1) {
+      let b = 10;
+   }
+
+   //console.log(b);//now you got an error even this variable being inside of the Block Scope, using let, tixed the issue about var variable.
+
+   //const - Variables defined with const behave like let variables, except they cannot be reassigned:
+
+   const EXAMPLE = 20;
+   console.log(EXAMPLE);
+   //EXAMPLE = 15; if try to change the value a const variable, you will get am error message.
+
+</script>
+
+</html>

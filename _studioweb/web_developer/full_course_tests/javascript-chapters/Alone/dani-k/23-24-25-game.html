@@ -7,6 +7,9 @@
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Acme">
    <link rel="stylesheet" href="23-24-25-game.css">
+   <script src="js/gamemanager.js"></script>
+   <script src="js/player.js"></script>
+   <script src="js/enemy.js"></script>
    <title>23-24-25- Creating a GAME</title>
 </head>
 
@@ -21,8 +24,33 @@
 
    <div class="interface">
 
-      <a href="#">
-         <img src="img/avatar-players/archer.jpg" alt="Archer">
+      <a href="#" onclick="GameManager.setGameStart('Archer')">
+         <img src="img/avatar-players/archer.jpg" alt="archer">
+         <div>
+            <h3>Archer</h3>
+            <p>Archers have higher precision and accuracy, however their strength is not so great.</p>
+         </div>
+      </a>
+      <a href="#" onclick="GameManager.setGameStart('Gray')">
+         <img src="img/avatar-players/gray.jpg" alt="gray">
+         <div>
+            <h3>Gray</h3>
+            <p>Grays have higher color funny (green, blur, purple (I do not know!)), however their color keep the same.</p>
+         </div>
+      </a>
+      <a href="#" onclick="GameManager.setGameStart('Fire')">
+         <img src="img/avatar-players/fire.jpg" alt="fire">
+         <div>
+            <h3>Fire</h3>
+            <p>Fires have higher fire and big tities (hahaha), however their fire are fire.</p>
+         </div>
+      </a>
+      <a href="#" onclick="GameManager.setGameStart('Unknown')">
+         <img src="img/avatar-players/unknown.jpg" alt="unknown">
+         <div>
+            <h3>Unknown</h3>
+            <p>Unknows are unknows and that is it. Fuck!</p>
+         </div>
       </a>
 
    </div>

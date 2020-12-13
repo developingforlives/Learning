@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="description"
+      content="This is an example of a meta description. This will often show up in search results.">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>32- Exercise</title>
+</head>
+
+<body>
+
+</body>
+
+<script>
+
+   function addZero(x, n) {
+      while (x.toString().length < n) {
+         x = "0" + x;
+      }
+      return x;
+   }
+
+   let getBody = document.body;
+
+   let newElement = document.createElement("h1");
+
+   let date = new Date();
+   let currentHour = addZero(date.getHours(), 2);
+   let currentMinute = addZero(date.getMinutes(), 2);
+   let currentSecond = addZero(date.getSeconds(), 2);
+   let currentTime = currentHour + ":" + currentMinute + ":" + currentSecond;
+   console.log(currentTime);
+
+   let createTextMsg;
+
+   if (currentTime >= "00:00:00" && currentTime <= "05:59:59") {
+      createTextMsg = "Still is " + currentTime + ", therefore is wee hours, go sleep!!!"
+   } else if (currentTime >= "06:00:00" && currentTime <= "11:59:59") {
+      createTextMsg = "Now are " + currentTime + ", Good Morning!";
+   } else if (currentTime >= "12:00:00" && currentTime <= "17:59:59") {
+      createTextMsg = "Now are " + currentTime + ", Good Afternoon!";
+   } else if (currentTime >= "18:00:00" && currentTime <= "23:59:59") {
+      createTextMsg = "Now are " + currentTime + ", Good Evening!";
+   } else {
+      createTextMsg = "Are you from a different PLANET!!! :0";
+   }
+
+   let createEleTxt = document.createTextNode(createTextMsg);
+
+   newElement.appendChild(createEleTxt);
+
+   getBody.appendChild(newElement);
+
+   newElement.setAttribute("class", "welcome");
+
+   newElement.style.cssText = "text-align: center; font-size: 60px; font-family: Arial; color: green";
+
+</script>
+
+</html>

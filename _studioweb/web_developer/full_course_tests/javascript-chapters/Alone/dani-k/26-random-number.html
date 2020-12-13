@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="description" content="This is an example of a meta description. This will often show up in search results.">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>26- Creating Random Numbers</title>
+</head>
+
+<body>
+
+</body>
+
+<script>
+   
+   console.log(Math.floor(2.7)); //this generates a number down
+   console.log(Math.floor(-2.2));
+
+   console.log("");
+
+   let calc = Math.floor((Math.random(10) * 10) + 1); //this allow to get a random number between 1 and 10
+   console.log(calc);
+
+   console.log("");
+
+   let getRandomNumber = function (start, range) {
+      let getRandom = Math.floor((Math.random() * range) + start);
+      while (getRandom > range) {
+         getRandom = Math.floor((Math.random() * range) + start);
+      }
+      return getRandom;
+   }
+
+   //console.log(getRandomNumber(5, 10));
+   console.log("");
+   console.log(getRandomNumber(500, 1000));
+
+</script>
+
+</html>

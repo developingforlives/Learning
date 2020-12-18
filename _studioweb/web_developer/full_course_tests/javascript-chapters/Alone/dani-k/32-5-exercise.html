@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="description"
+      content="This is an example of a meta description. This will often show up in search results.">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="33-what-are-events.css">
+   <title>32-5- Exercise</title>
+</head>
+
+<body>
+
+   <h1 style="color: red">First</h1>
+
+</body>
+   <script>
+
+      let getBody = document.body;
+      let newElement = document.createElement("h1");
+      let text = document.createTextNode("Second");
+
+      newElement.appendChild(text);
+      getBody.appendChild(newElement);
+      newElement.style.cssText = "color: red; background-color: blue; width: 150px; text-align: center";
+
+      let newElement2 = document.createElement("h1");
+      let text2 = document.createTextNode("Third");
+      newElement2.appendChild(text2);
+      getBody.appendChild(newElement2);
+      
+      getBody.removeChild(newElement);
+
+   </script>
+</html>

@@ -1,0 +1,30 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+.menu-btn {
+   display: block;
+   color: white;
+   background-color: #1e1e1e;
+   text-decoration: none;
+   padding: 20px;
+   margin-bottom: 1px;
+   width: 80px;
+   text-align: center;
+}
+
+.menu li {
+   color: white;
+   background-color: #1e1e1e;
+   text-decoration: none;
+   width: 300px;
+   padding: 8px 0;
+   margin-bottom: 1px;
+}
+
+.menu li a {
+   color: white;
+   text-decoration: none;
+}

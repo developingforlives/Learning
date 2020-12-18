@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="description"
+      content="This is an example of a meta description. This will often show up in search results.">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>32-5</title>
+
+   <style>
+      h3 {
+         color: blue; 
+         background-color: burlywood; 
+         width: 50%;
+         padding: 10px;
+         text-align: center;
+      }
+   </style>
+
+</head>
+
+<body>
+
+   <h3>I am Learning :)</h3>
+
+</body>
+
+<script>
+
+   let getBody = document.body;
+
+   let newElement = document.createElement("h1");
+   let text = document.createTextNode("I am Powerful");
+   newElement.appendChild(text);
+   
+   getBody.appendChild(newElement);
+
+   newElement.setAttribute("id", "bacana");
+
+   newElement.style.cssText = "color: green; background-color: yellow; width: 50%; padding: 10px; text-align: center; font-family: Arial";
+
+
+   let newElement2 = document.createElement("h3");
+   let text2 = document.createTextNode("I am Free!");
+   newElement2.appendChild(text2);
+
+   getBody.appendChild(newElement2);
+
+</script>
+
+</html>

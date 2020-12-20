@@ -85,6 +85,12 @@ hoisting - elevação
 
 cut and dry - direto, objetivo, ser completado sem debate, perguntas ou argumentos
 
+wheter = se
+
+whenever = quando, sempre que
+
+
+
 
 
 

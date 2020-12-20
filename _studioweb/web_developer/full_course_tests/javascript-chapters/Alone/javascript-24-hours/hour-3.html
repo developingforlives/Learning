@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>hour-3</title>
+</head>
+
+<body>
+
+   <input type="button" value="Say Hello" onclick="sayHello('Carlos')" />
+
+   <br><br><br>
+
+   <input type="button" id="id1" name="Left Hand Button" value="Left"
+      onclick="buttonReport(this.id, this.name, this.value)" />
+
+   <input type="button" id="id2" name="Center Button" value="Center"
+      onclick="buttonReport(this.id, this.name, this.value)" />
+
+   <input type="button" id="id3" name="Right Hand Button" value="Right"
+      onclick="buttonReport(this.id, this.name, this.value)" />
+
+   <br><br><br>
+
+   <input type="text" id="value1">
+
+   <br><br>
+
+   <select id="operator">
+      <option value="CtoF">CtoF</option>
+      <option value="FtoC">FtoC</option>
+   </select>
+
+   <button type="button" onclick="tempConvert()">Calculate</button>
+
+   <br><br>
+
+   <div id="result"></div>
+
+</body>
+
+<script src=" hour-3.js"></script>
+
+</html>

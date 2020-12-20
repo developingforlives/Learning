@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>hour-2</title>
+</head>
+
+<body>
+
+   <input type="button" onclick="alert('You clicked the button!')" value="Click Me" />
+
+   <br><br>
+
+   <img src="img/workplace.jpg" alt="workplace" width="150" onmouseover="console.log('You entered the image!')" />
+   <!--Replacing onmouseover with onmouseout in the code will, of course, simply fire the event handler—and therefore pop up the alert dialog—as the mouse leaves the image, rather than doing so as it enters.-->
+
+   <br><br>
+
+   <img src="img/turned-off.png" alt="turned-off" onmouseover="this.src='img/turned-on.png';" onmouseout="this.src='img/turned-off.png';"/>
+
+   <br><br>
+
+   <img src="img/turned-off.png" alt="turned-off" onclick="this.src='img/turned-on.png';"/>
+
+   <br><br>
+
+   <img src="img/gray.jpg" alt="gray" onmouseover="this.src='img/green.jpg';" onmouseout="this.src='img/gray.jpg';"/>
+
+   <br><br>
+
+   <img src="img/green.jpg" alt="green" onmouseover="this.src='img/gray.jpg';" onmouseout="this.src='img/green.jpg';"/>
+
+   <br><br>
+
+   <img src="img/workplace.jpg" alt="workplace" title="Oi" width="150" onclick="this.title='Tchau'" />
+
+   <br><br>
+
+</body>
+
+<script src="hour-2.js"></script>
+
+</html>

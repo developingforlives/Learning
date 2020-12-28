@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>hour-6-2 - Strings and Arrays</title>
+   <script>
+      function wrangleArray() {
+         let sentence = "JavaScript is a really cool language";
+         let newSentence = "";
+         //Write it out
+         document.getElementById("div1").innerHTML = "<h2 style=color:red>" + sentence + "</h2>";
+         console.log(sentence);
+         //Convert to an array
+         let words = sentence.split(" ");
+         console.log(words);
+         console.log(words.length);
+         // Remove 'really' and 'cool', and add 'powerful' instead
+         let message = words.splice(3, 2, "powerful");
+         console.log("message: " + message);
+         console.log(words);
+         // use an alert to say what words were removed
+         alert('Removed words: ' + message);
+         // Convert the array to a string, and write it out
+         document.getElementById("div2").innerHTML = "<h2>" + words.join(" ") + "</h2>";
+      }
+   </script>
+</head>
+
+<body>
+   <div id="div1"></div>
+   <div id="div2"></div>
+   <script>wrangleArray();</script>
+</body>
+
+</html>

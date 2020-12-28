@@ -89,6 +89,12 @@ wheter = se
 
 whenever = quando, sempre que
 
+whereas - Enquanto que, ao passo que, desde que
+
+as with - assim como
+
+ 
+
 
 
 

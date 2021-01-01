@@ -96,20 +96,24 @@ if (num3 === 1) {
    console.log("The number is not 1 or 2.");
 }
 
-127 - 148
 
+//I did ALONE Wooooooohoooooooooooo :)
+let carBrand = "SEAT"
+let carModel = "Toledo"
+let carColor = "Silver"
 
-
-
-
-
-
-
-
-
-
-
-
-
+if (carBrand === "SEAT") {
+   if (carModel === "Toledo") {
+      if (carColor === "Silver") {
+         console.log("Ops! That is my car!");
+      } else {
+         console.log("Doo! This is NOT my car!");
+      }
+   } else {
+      console.log("Check again the model!");
+   } 
+} else {
+   console.log("Are you sure that is a SEAT car?")
+}
 
 

@@ -160,3 +160,13 @@ switch (true) {
 
 document.write(vehicle + "<br><br>");
 document.write("So, you can spend: " + total + "€");
+
+//Muito engraçado
+/*let r = confirm("Você é Viado ou Não?");
+console.log(r);
+
+if (r === true) {
+   alert("Viadão!!!");
+} else {
+   alert("Além de Viado é mentiroso!")
+}*/

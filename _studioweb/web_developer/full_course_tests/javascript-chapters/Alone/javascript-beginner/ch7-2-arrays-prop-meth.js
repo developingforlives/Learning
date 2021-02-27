@@ -256,7 +256,7 @@ let result5 = ages.map(checkAdult);
 document.write((result5) + "<br><br>");
 
 
-//The reduce()and reduceRight() Methods
+//The reduce() and reduceRight() Methods
 document.write("- These methods also iterate over the items in an array ***<br><br>");
 function subValues(prevValue, nextValue) {
    return (prevValue - nextValue);
@@ -266,19 +266,8 @@ let theResult = nums4.reduce(subValues);
 document.write(theResult + "<br><br>");
 theResult = nums4.reduceRight(subValues);
 document.write(theResult + "<br><br>");
-
-alert(175)
-
+document.write("The variable nums4 still keep of the same, of course: " + nums4 + "<br><br>");
 
 
-
-
-
-
-
-
-
-
-
-
-
+//toString(), toLocaleString() and valueOf() Methods
+document.write("- The toString(), toLocaleString(), and valueOf() methods effectively combine the elements of an array into a single string with a comma as a separator character (much like using the join method with a comma separator). The toLocaleString() method can be adjusted to return a localized version of an item value if desired. You will learn more about the toLocaleString() method when strings are discussed in Chapter 13.***<br><br>");
